@@ -1,0 +1,965 @@
+Character name: Temp hp low life tank with a battle trance and sacred hp THF
+Classes: 20 Dragon Lord, E10, L4
+Race: Aasimar              Alignment: Chaotic Neutral
+
+     Start Tome Final      HP:       6408      Displacement:   50%
+Str:    10    8    42      Unc Rng:  -153      Incorp:          0%
+Dex:     8    8    30      PRR:       384      AC:             185
+Con:    18    8   103      MRR:       210      +Healing Amp:   146
+Int:    10    8    24      Dodge:   16/27      -Healing Amp:    10
+Wis:    10    8    30      Fort:     345%      Repair Amp:      10
+Cha:    18    8    71      SR:          0      BAB:             25
+DR: 
+Immunities: Fear, Knockdown, Death Effects, Most forms of Knockdown, Fear
+
+Racial Past Lives
+[HR][/HR]
+Past Life: Warforged(2)
+
+Epic Past Lives
+[HR][/HR]
+Past Life: Martial Sphere: Doublestrike
+Past Life: Primal Sphere: Ancient Power
+
+
+Special Feats
+[HR][/HR]
+Inherent Fate Point(3)
+Inherent Magical Resistance(4)
+Inherent Melee Power(4)
+Inherent Physical Resistance(4)
+Inherent Racial Action Point(3)
+Inherent Ranged Power(4)
+Inherent Spell Power(4)
+Inherent Universal Action Point(3)
+Tome of Destiny(3)
+
+Favor Feats
+[HR][/HR]
+Agents of Argonnessen Favor Rewards(3)
+Gatekeepers Favor Rewards(4)
+House Cannith Favor Rewards(2)
+House Deneith Favor Rewards(2)
+House Jorasco Favor Rewards(2)
+House Kundarak Favor Rewards(2)
+House Phiarlan Favor Rewards(2)
+Keepers of the Feather Favor Rewards(4)
+Lamordia Favor Rewards(2)
+Morgrave University Favor Rewards(4)
+Myth Drannor Favor Rewards(2)
+Purple Dragon Knight Favor Rewards(4)
+Sharn City Council Favor Rewards(3)
+Summer Court Favor Rewards(4)
+The Coin Lords Favor Rewards(3)
+The Free Agents Favor Rewards(4)
+The Harpers Favor Rewards(3)
+The Silver Flame Favor Rewards(3)
+The Twelve Favor Rewards(4)
+The Yugoloth Favor Rewards
+Total Favor Rewards(4)
+
+
+Saves:
++---------+---------------+---+
+|Fortitude|               | 85|
+|         |vs Poison      | 90|
+|         |vs Disease     | 86|
++---------+---------------+---+
+|Will     |               | 50|
+|         |vs Enchantment | 51|
+|         |vs Illusion    | 50|
+|         |vs Fear        | 50|
+|         |vs Curse       | 61|
++---------+---------------+---+
+|Reflex   |               | 49|
+|         |vs Traps       | 49|
+|         |vs Spell       | 63|
+|         |vs Magic       | 49|
++---------+---------------+---+
+
+Marked with a* is no fail on a 1 if required DC met
+
++---------+----------+----------+
+|Energy   |Resistance|Absorbance|
++---------+----------+----------+
+|Acid:    |20        |36%       |
++---------+----------+----------+
+|Chaos:   |0         |25%       |
++---------+----------+----------+
+|Cold:    |20        |36%       |
++---------+----------+----------+
+|Electric:|20        |36%       |
++---------+----------+----------+
+|Evil:    |0         |32%       |
++---------+----------+----------+
+|Fire:    |15        |36%       |
++---------+----------+----------+
+|Force:   |0         |25%       |
++---------+----------+----------+
+|Good:    |0         |0%        |
++---------+----------+----------+
+|Lawful:  |0         |0%        |
++---------+----------+----------+
+|Light:   |0         |0%        |
++---------+----------+----------+
+|Negative:|0         |0%        |
++---------+----------+----------+
+|Poison:  |6         |0%        |
++---------+----------+----------+
+|Sonic:   |15        |36%       |
++---------+----------+----------+
+
+Class and Feat Selection
++-----+---------------+---------------------------------------------------------------------+
+|Level|Class          |Feats                                                                |
++-----+---------------+---------------------------------------------------------------------+
+|1    |Dragon Lord(1) |Aasimar Bond: Aasimar: Protector Bond                                |
+|     |               |Standard: Shield Proficiency (General)                               |
+|     |               |Minor Draconic Aura: Nevalarich's Hunger                             |
+|     |               |Class Skills: Intimidate(4)                                          |
+|     |               |Cross Class Skills: Balance(2), Tumble(2)                            |
++-----+---------------+---------------------------------------------------------------------+
+|2    |Dragon Lord(2) |Fighter Bonus Feat: Weapon Focus: Slashing Weapons                   |
+|     |               |Class Skills: Intimidate(1)                                          |
+|     |               |Cross Class Skills: Balance(2)                                       |
++-----+---------------+---------------------------------------------------------------------+
+|3    |Dragon Lord(3) |Standard: Exotic Weapon Proficiency: Bastard Sword                   |
++-----+---------------+---------------------------------------------------------------------+
+|4    |Dragon Lord(4) |Fighter Bonus Feat: Shield Mastery                                   |
+|     |               |Alter Dark Gift: Empty Feat Slot                                     |
+|     |               |Constitution: +1 Level up                                            |
+|     |               |Cross Class Skills: Balance(1), Use Magic Device(1)                  |
++-----+---------------+---------------------------------------------------------------------+
+|5    |Dragon Lord(5) |Class Skills: Intimidate(1)                                          |
++-----+---------------+---------------------------------------------------------------------+
+|6    |Dragon Lord(6) |Standard: Toughness                                                  |
+|     |               |Fighter Bonus Feat: Weapon Specialization: Slashing Weapons          |
++-----+---------------+---------------------------------------------------------------------+
+|7    |Dragon Lord(7) |Class Skills: Intimidate(1)                                          |
+|     |               |Cross Class Skills: Balance(1), Use Magic Device(2)                  |
++-----+---------------+---------------------------------------------------------------------+
+|8    |Dragon Lord(8) |Major Draconic Aura: Sinvala's Toughness                             |
++-----+---------------+---------------------------------------------------------------------+
+|9    |Dragon Lord(9) |Standard: Improved Shield Mastery                                    |
++-----+---------------+---------------------------------------------------------------------+
+|10   |Dragon Lord(10)|Fighter Bonus Feat: Greater Weapon Focus: Slashing Weapons           |
++-----+---------------+---------------------------------------------------------------------+
+|11   |Dragon Lord(11)|Class Skills: Intimidate(1)                                          |
++-----+---------------+---------------------------------------------------------------------+
+|12   |Dragon Lord(12)|Standard: Toughness                                                  |
+|     |               |Fighter Bonus Feat: Improved Critical: Slashing Weapons              |
++-----+---------------+---------------------------------------------------------------------+
+|13   |Dragon Lord(13)|Class Skills: Intimidate(1)                                          |
+|     |               |Cross Class Skills: Balance(1), Concentration(1), Use Magic Device(1)|
++-----+---------------+---------------------------------------------------------------------+
+|14   |Dragon Lord(14)|Fighter Bonus Feat: Greater Shield Mastery                           |
++-----+---------------+---------------------------------------------------------------------+
+|15   |Dragon Lord(15)|Standard: Toughness                                                  |
+|     |               |Cross Class Skills: Balance(1), Concentration(2), Use Magic Device(1)|
++-----+---------------+---------------------------------------------------------------------+
+|16   |Dragon Lord(16)|Superior Draconic Aura: The Truthful One's Might                     |
++-----+---------------+---------------------------------------------------------------------+
+|17   |Dragon Lord(17)|Class Skills: Intimidate(1)                                          |
++-----+---------------+---------------------------------------------------------------------+
+|18   |Dragon Lord(18)|Standard: Heavy Armor Champion                                       |
+|     |               |Fighter Bonus Feat: Heavy Armor Master                               |
++-----+---------------+---------------------------------------------------------------------+
+|19   |Dragon Lord(19)|Class Skills: Intimidate(1)                                          |
++-----+---------------+---------------------------------------------------------------------+
+|20   |Dragon Lord(20)|Fighter Bonus Feat: Greater Weapon Specialization: Slashing Weapons  |
+|     |               |Cross Class Skills: Tumble(4)                                        |
++-----+---------------+---------------------------------------------------------------------+
+|21   |Epic(1)        |Epic Feat: Toughness                                                 |
++-----+---------------+---------------------------------------------------------------------+
+|22   |Epic(2)        |Epic Destiny Feat: Perfect Shield Mastery                            |
++-----+---------------+---------------------------------------------------------------------+
+|23   |Epic(3)        |                                                                     |
++-----+---------------+---------------------------------------------------------------------+
+|24   |Epic(4)        |Epic Feat: Epic Toughness                                            |
++-----+---------------+---------------------------------------------------------------------+
+|25   |Epic(5)        |Epic Destiny Feat: Doublestrike                                      |
++-----+---------------+---------------------------------------------------------------------+
+|26   |Epic(6)        |                                                                     |
++-----+---------------+---------------------------------------------------------------------+
+|27   |Epic(7)        |Epic Feat: Toughness                                                 |
++-----+---------------+---------------------------------------------------------------------+
+|28   |Epic(8)        |Epic Destiny Feat: Elusive Target                                    |
++-----+---------------+---------------------------------------------------------------------+
+|29   |Epic(9)        |                                                                     |
++-----+---------------+---------------------------------------------------------------------+
+|30   |Epic(10)       |Epic Feat: Epic Damage Reduction                                     |
+|     |               |Legendary Feat: Scion of Celestia                                    |
+|     |               |Dark Gift Upgrade: Empty Feat Slot                                   |
++-----+---------------+---------------------------------------------------------------------+
+|31   |Legendary(1)   |Epic Destiny Feat: Legendary Toughness                               |
++-----+---------------+---------------------------------------------------------------------+
+|32   |Legendary(2)   |Constitution: +1 Level up                                            |
++-----+---------------+---------------------------------------------------------------------+
+|33   |Legendary(3)   |Epic Feat: Toughness                                                 |
++-----+---------------+---------------------------------------------------------------------+
+|34   |Legendary(4)   |Epic Destiny Feat: Two Handed Specialty                              |
++-----+---------------+---------------------------------------------------------------------+
+
+Class and Feat Selection
++-----+---------------+-------------------------------------------------------------------+
+|Level|Class          |Feats                                                              |
++-----+---------------+-------------------------------------------------------------------+
+|1    |Dragon Lord(1) |Aasimar Bond: Aasimar: Protector Bond                              |
+|     |               |Standard: Shield Proficiency (General)                             |
+|     |               |Minor Draconic Aura: Nevalarich's Hunger                           |
++-----+---------------+-------------------------------------------------------------------+
+|2    |Dragon Lord(2) |Fighter Bonus Feat: Weapon Focus: Slashing Weapons                 |
++-----+---------------+-------------------------------------------------------------------+
+|3    |Dragon Lord(3) |Standard: Exotic Weapon Proficiency: Bastard Sword                 |
++-----+---------------+-------------------------------------------------------------------+
+|4    |Dragon Lord(4) |Fighter Bonus Feat: Shield Mastery                                 |
+|     |               |Alter Dark Gift: Empty Feat Slot                                   |
+|     |               |Constitution: +1 Level up                                          |
++-----+---------------+-------------------------------------------------------------------+
+|5    |Dragon Lord(5) |                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|6    |Dragon Lord(6) |Standard: Toughness                                                |
+|     |               |Fighter Bonus Feat: Weapon Specialization: Slashing Weapons        |
++-----+---------------+-------------------------------------------------------------------+
+|7    |Dragon Lord(7) |                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|8    |Dragon Lord(8) |Major Draconic Aura: Sinvala's Toughness                           |
++-----+---------------+-------------------------------------------------------------------+
+|9    |Dragon Lord(9) |Standard: Improved Shield Mastery                                  |
++-----+---------------+-------------------------------------------------------------------+
+|10   |Dragon Lord(10)|Fighter Bonus Feat: Greater Weapon Focus: Slashing Weapons         |
++-----+---------------+-------------------------------------------------------------------+
+|11   |Dragon Lord(11)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|12   |Dragon Lord(12)|Standard: Toughness                                                |
+|     |               |Fighter Bonus Feat: Improved Critical: Slashing Weapons            |
++-----+---------------+-------------------------------------------------------------------+
+|13   |Dragon Lord(13)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|14   |Dragon Lord(14)|Fighter Bonus Feat: Greater Shield Mastery                         |
++-----+---------------+-------------------------------------------------------------------+
+|15   |Dragon Lord(15)|Standard: Toughness                                                |
++-----+---------------+-------------------------------------------------------------------+
+|16   |Dragon Lord(16)|Superior Draconic Aura: The Truthful One's Might                   |
++-----+---------------+-------------------------------------------------------------------+
+|17   |Dragon Lord(17)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|18   |Dragon Lord(18)|Standard: Heavy Armor Champion                                     |
+|     |               |Fighter Bonus Feat: Heavy Armor Master                             |
++-----+---------------+-------------------------------------------------------------------+
+|19   |Dragon Lord(19)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|20   |Dragon Lord(20)|Fighter Bonus Feat: Greater Weapon Specialization: Slashing Weapons|
++-----+---------------+-------------------------------------------------------------------+
+|21   |Epic(1)        |Epic Feat: Toughness                                               |
++-----+---------------+-------------------------------------------------------------------+
+|22   |Epic(2)        |Epic Destiny Feat: Perfect Shield Mastery                          |
++-----+---------------+-------------------------------------------------------------------+
+|23   |Epic(3)        |                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|24   |Epic(4)        |Epic Feat: Epic Toughness                                          |
++-----+---------------+-------------------------------------------------------------------+
+|25   |Epic(5)        |Epic Destiny Feat: Doublestrike                                    |
++-----+---------------+-------------------------------------------------------------------+
+|26   |Epic(6)        |                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|27   |Epic(7)        |Epic Feat: Toughness                                               |
++-----+---------------+-------------------------------------------------------------------+
+|28   |Epic(8)        |Epic Destiny Feat: Elusive Target                                  |
++-----+---------------+-------------------------------------------------------------------+
+|29   |Epic(9)        |                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|30   |Epic(10)       |Epic Feat: Epic Damage Reduction                                   |
+|     |               |Legendary Feat: Scion of Celestia                                  |
+|     |               |Dark Gift Upgrade: Empty Feat Slot                                 |
++-----+---------------+-------------------------------------------------------------------+
+|31   |Legendary(1)   |Epic Destiny Feat: Legendary Toughness                             |
++-----+---------------+-------------------------------------------------------------------+
+|32   |Legendary(2)   |Constitution: +1 Level up                                          |
++-----+---------------+-------------------------------------------------------------------+
+|33   |Legendary(3)   |Epic Feat: Toughness                                               |
++-----+---------------+-------------------------------------------------------------------+
+|34   |Legendary(4)   |Epic Destiny Feat: Two Handed Specialty                            |
++-----+---------------+-------------------------------------------------------------------+
+
+Granted Feats
+[HR][/HR]
+Magical Training
+Diehard
+Deific Warding
+[HR][/HR]
+
+Automatic Feats
++-----+---------------+-------------------------------------------+
+|Level|Class          |Feats                                      |
++-----+---------------+-------------------------------------------+
+|1    |Dragon Lord(1) |Aasimar Racial Traits                      |
+|     |               |Attack                                     |
+|     |               |Defensive Fighting                         |
+|     |               |Heavy Armor Proficiency                    |
+|     |               |Heroic Durability                          |
+|     |               |Light Armor Proficiency                    |
+|     |               |Martial Weapon Proficiency: Battle Axe     |
+|     |               |Martial Weapon Proficiency: Falchion       |
+|     |               |Martial Weapon Proficiency: Great Axe      |
+|     |               |Martial Weapon Proficiency: Great Club     |
+|     |               |Martial Weapon Proficiency: Great Sword    |
+|     |               |Martial Weapon Proficiency: Hand Axe       |
+|     |               |Martial Weapon Proficiency: Heavy Pick     |
+|     |               |Martial Weapon Proficiency: Kukri          |
+|     |               |Martial Weapon Proficiency: Light Hammer   |
+|     |               |Martial Weapon Proficiency: Light Pick     |
+|     |               |Martial Weapon Proficiency: Longbow        |
+|     |               |Martial Weapon Proficiency: Longsword      |
+|     |               |Martial Weapon Proficiency: Maul           |
+|     |               |Martial Weapon Proficiency: Rapier         |
+|     |               |Martial Weapon Proficiency: Scimitar       |
+|     |               |Martial Weapon Proficiency: Shortbow       |
+|     |               |Martial Weapon Proficiency: Shortsword     |
+|     |               |Martial Weapon Proficiency: Throwing Axe   |
+|     |               |Martial Weapon Proficiency: Throwing Hammer|
+|     |               |Martial Weapon Proficiency: Warhammer      |
+|     |               |Medium Armor Proficiency                   |
+|     |               |Simple Weapon Proficiency: Club            |
+|     |               |Simple Weapon Proficiency: Dagger          |
+|     |               |Simple Weapon Proficiency: Dart            |
+|     |               |Simple Weapon Proficiency: Heavy Crossbow  |
+|     |               |Simple Weapon Proficiency: Heavy Mace      |
+|     |               |Simple Weapon Proficiency: Light Crossbow  |
+|     |               |Simple Weapon Proficiency: Light Mace      |
+|     |               |Simple Weapon Proficiency: Morningstar     |
+|     |               |Simple Weapon Proficiency: Quarterstaff    |
+|     |               |Simple Weapon Proficiency: Sickle          |
+|     |               |Simple Weapon Proficiency: Throwing Dagger |
+|     |               |Simple Weapon Proficiency: Unarmed         |
+|     |               |Sneak                                      |
+|     |               |Sunder                                     |
+|     |               |Trip                                       |
++-----+---------------+-------------------------------------------+
+|2    |Dragon Lord(2) |Second Wind                                |
++-----+---------------+-------------------------------------------+
+|3    |Dragon Lord(3) |                                           |
++-----+---------------+-------------------------------------------+
+|4    |Dragon Lord(4) |                                           |
++-----+---------------+-------------------------------------------+
+|5    |Dragon Lord(5) |Improved Heroic Durability (Dragon Lord 5) |
++-----+---------------+-------------------------------------------+
+|6    |Dragon Lord(6) |                                           |
++-----+---------------+-------------------------------------------+
+|7    |Dragon Lord(7) |                                           |
++-----+---------------+-------------------------------------------+
+|8    |Dragon Lord(8) |                                           |
++-----+---------------+-------------------------------------------+
+|9    |Dragon Lord(9) |                                           |
++-----+---------------+-------------------------------------------+
+|10   |Dragon Lord(10)|Improved Heroic Durability (Dragon Lord 10)|
++-----+---------------+-------------------------------------------+
+|11   |Dragon Lord(11)|                                           |
++-----+---------------+-------------------------------------------+
+|12   |Dragon Lord(12)|                                           |
++-----+---------------+-------------------------------------------+
+|13   |Dragon Lord(13)|                                           |
++-----+---------------+-------------------------------------------+
+|14   |Dragon Lord(14)|                                           |
++-----+---------------+-------------------------------------------+
+|15   |Dragon Lord(15)|Improved Heroic Durability (Dragon Lord 15)|
++-----+---------------+-------------------------------------------+
+|16   |Dragon Lord(16)|                                           |
++-----+---------------+-------------------------------------------+
+|17   |Dragon Lord(17)|                                           |
++-----+---------------+-------------------------------------------+
+|18   |Dragon Lord(18)|                                           |
++-----+---------------+-------------------------------------------+
+|19   |Dragon Lord(19)|                                           |
++-----+---------------+-------------------------------------------+
+|20   |Dragon Lord(20)|                                           |
++-----+---------------+-------------------------------------------+
+|21   |Epic(1)        |Epic Power                                 |
+|     |               |Epic Skills                                |
++-----+---------------+-------------------------------------------+
+|22   |Epic(2)        |Epic Knowledge                             |
+|     |               |Epic Power                                 |
+|     |               |Epic Saves                                 |
++-----+---------------+-------------------------------------------+
+|23   |Epic(3)        |Epic Power                                 |
++-----+---------------+-------------------------------------------+
+|24   |Epic(4)        |Epic Knowledge                             |
++-----+---------------+-------------------------------------------+
+|25   |Epic(5)        |Epic Power                                 |
++-----+---------------+-------------------------------------------+
+|26   |Epic(6)        |Epic Knowledge                             |
++-----+---------------+-------------------------------------------+
+|27   |Epic(7)        |Epic Power                                 |
++-----+---------------+-------------------------------------------+
+|28   |Epic(8)        |Epic Knowledge                             |
++-----+---------------+-------------------------------------------+
+|29   |Epic(9)        |Epic Power                                 |
++-----+---------------+-------------------------------------------+
+|30   |Epic(10)       |Epic Knowledge                             |
++-----+---------------+-------------------------------------------+
+|31   |Legendary(1)   |Legendary Power                            |
++-----+---------------+-------------------------------------------+
+|32   |Legendary(2)   |Legendary Knowledge                        |
+|     |               |Legendary Power                            |
++-----+---------------+-------------------------------------------+
+|33   |Legendary(3)   |Legendary Power                            |
++-----+---------------+-------------------------------------------+
+|34   |Legendary(4)   |Legendary Knowledge                        |
++-----+---------------+-------------------------------------------+
+
+Class and Feat Selection (Consolidated)
++-----+---------------+-------------------------------------------------------------------+
+|Level|Class          |Feats                                                              |
++-----+---------------+-------------------------------------------------------------------+
+|1    |Dragon Lord(1) |Aasimar Bond: Aasimar: Protector Bond                              |
+|     |               |Automatic: Aasimar Racial Traits                                   |
+|     |               |Automatic: Attack                                                  |
+|     |               |Automatic: Defensive Fighting                                      |
+|     |               |Automatic: Heavy Armor Proficiency                                 |
+|     |               |Automatic: Heroic Durability                                       |
+|     |               |Automatic: Light Armor Proficiency                                 |
+|     |               |Automatic: Martial Weapon Proficiency: Battle Axe                  |
+|     |               |Automatic: Martial Weapon Proficiency: Falchion                    |
+|     |               |Automatic: Martial Weapon Proficiency: Great Axe                   |
+|     |               |Automatic: Martial Weapon Proficiency: Great Club                  |
+|     |               |Automatic: Martial Weapon Proficiency: Great Sword                 |
+|     |               |Automatic: Martial Weapon Proficiency: Hand Axe                    |
+|     |               |Automatic: Martial Weapon Proficiency: Heavy Pick                  |
+|     |               |Automatic: Martial Weapon Proficiency: Kukri                       |
+|     |               |Automatic: Martial Weapon Proficiency: Light Hammer                |
+|     |               |Automatic: Martial Weapon Proficiency: Light Pick                  |
+|     |               |Automatic: Martial Weapon Proficiency: Longbow                     |
+|     |               |Automatic: Martial Weapon Proficiency: Longsword                   |
+|     |               |Automatic: Martial Weapon Proficiency: Maul                        |
+|     |               |Automatic: Martial Weapon Proficiency: Rapier                      |
+|     |               |Automatic: Martial Weapon Proficiency: Scimitar                    |
+|     |               |Automatic: Martial Weapon Proficiency: Shortbow                    |
+|     |               |Automatic: Martial Weapon Proficiency: Shortsword                  |
+|     |               |Automatic: Martial Weapon Proficiency: Throwing Axe                |
+|     |               |Automatic: Martial Weapon Proficiency: Throwing Hammer             |
+|     |               |Automatic: Martial Weapon Proficiency: Warhammer                   |
+|     |               |Automatic: Medium Armor Proficiency                                |
+|     |               |Automatic: Simple Weapon Proficiency: Club                         |
+|     |               |Automatic: Simple Weapon Proficiency: Dagger                       |
+|     |               |Automatic: Simple Weapon Proficiency: Dart                         |
+|     |               |Automatic: Simple Weapon Proficiency: Heavy Crossbow               |
+|     |               |Automatic: Simple Weapon Proficiency: Heavy Mace                   |
+|     |               |Automatic: Simple Weapon Proficiency: Light Crossbow               |
+|     |               |Automatic: Simple Weapon Proficiency: Light Mace                   |
+|     |               |Automatic: Simple Weapon Proficiency: Morningstar                  |
+|     |               |Automatic: Simple Weapon Proficiency: Quarterstaff                 |
+|     |               |Automatic: Simple Weapon Proficiency: Sickle                       |
+|     |               |Automatic: Simple Weapon Proficiency: Throwing Dagger              |
+|     |               |Automatic: Simple Weapon Proficiency: Unarmed                      |
+|     |               |Automatic: Sneak                                                   |
+|     |               |Automatic: Sunder                                                  |
+|     |               |Automatic: Trip                                                    |
++-----+---------------+-------------------------------------------------------------------+
+|2    |Dragon Lord(2) |Fighter Bonus Feat: Weapon Focus: Slashing Weapons                 |
+|     |               |Automatic: Second Wind                                             |
++-----+---------------+-------------------------------------------------------------------+
+|3    |Dragon Lord(3) |Standard: Exotic Weapon Proficiency: Bastard Sword                 |
++-----+---------------+-------------------------------------------------------------------+
+|4    |Dragon Lord(4) |Fighter Bonus Feat: Shield Mastery                                 |
+|     |               |Constitution: +1 Level up                                          |
++-----+---------------+-------------------------------------------------------------------+
+|5    |Dragon Lord(5) |Automatic: Improved Heroic Durability (Dragon Lord 5)              |
++-----+---------------+-------------------------------------------------------------------+
+|6    |Dragon Lord(6) |Standard: Toughness                                                |
++-----+---------------+-------------------------------------------------------------------+
+|7    |Dragon Lord(7) |                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|8    |Dragon Lord(8) |Major Draconic Aura: Sinvala's Toughness                           |
++-----+---------------+-------------------------------------------------------------------+
+|9    |Dragon Lord(9) |Standard: Improved Shield Mastery                                  |
++-----+---------------+-------------------------------------------------------------------+
+|10   |Dragon Lord(10)|Fighter Bonus Feat: Greater Weapon Focus: Slashing Weapons         |
+|     |               |Automatic: Improved Heroic Durability (Dragon Lord 10)             |
++-----+---------------+-------------------------------------------------------------------+
+|11   |Dragon Lord(11)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|12   |Dragon Lord(12)|Standard: Toughness                                                |
++-----+---------------+-------------------------------------------------------------------+
+|13   |Dragon Lord(13)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|14   |Dragon Lord(14)|Fighter Bonus Feat: Greater Shield Mastery                         |
++-----+---------------+-------------------------------------------------------------------+
+|15   |Dragon Lord(15)|Standard: Toughness                                                |
+|     |               |Automatic: Improved Heroic Durability (Dragon Lord 15)             |
++-----+---------------+-------------------------------------------------------------------+
+|16   |Dragon Lord(16)|Superior Draconic Aura: The Truthful One's Might                   |
++-----+---------------+-------------------------------------------------------------------+
+|17   |Dragon Lord(17)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|18   |Dragon Lord(18)|Standard: Heavy Armor Champion                                     |
++-----+---------------+-------------------------------------------------------------------+
+|19   |Dragon Lord(19)|                                                                   |
++-----+---------------+-------------------------------------------------------------------+
+|20   |Dragon Lord(20)|Fighter Bonus Feat: Greater Weapon Specialization: Slashing Weapons|
++-----+---------------+-------------------------------------------------------------------+
+|21   |Epic(1)        |Epic Feat: Toughness                                               |
+|     |               |Automatic: Epic Power                                              |
+|     |               |Automatic: Epic Skills                                             |
++-----+---------------+-------------------------------------------------------------------+
+|22   |Epic(2)        |Epic Destiny Feat: Perfect Shield Mastery                          |
+|     |               |Automatic: Epic Knowledge                                          |
+|     |               |Automatic: Epic Saves                                              |
++-----+---------------+-------------------------------------------------------------------+
+|23   |Epic(3)        |Automatic: Epic Power                                              |
++-----+---------------+-------------------------------------------------------------------+
+|24   |Epic(4)        |Epic Feat: Epic Toughness                                          |
++-----+---------------+-------------------------------------------------------------------+
+|25   |Epic(5)        |Epic Destiny Feat: Doublestrike                                    |
++-----+---------------+-------------------------------------------------------------------+
+|26   |Epic(6)        |Automatic: Epic Knowledge                                          |
++-----+---------------+-------------------------------------------------------------------+
+|27   |Epic(7)        |Epic Feat: Toughness                                               |
++-----+---------------+-------------------------------------------------------------------+
+|28   |Epic(8)        |Epic Destiny Feat: Elusive Target                                  |
++-----+---------------+-------------------------------------------------------------------+
+|29   |Epic(9)        |Automatic: Epic Power                                              |
++-----+---------------+-------------------------------------------------------------------+
+|30   |Epic(10)       |Epic Feat: Epic Damage Reduction                                   |
++-----+---------------+-------------------------------------------------------------------+
+|31   |Legendary(1)   |Epic Destiny Feat: Legendary Toughness                             |
+|     |               |Automatic: Legendary Power                                         |
++-----+---------------+-------------------------------------------------------------------+
+|32   |Legendary(2)   |Constitution: +1 Level up                                          |
+|     |               |Automatic: Legendary Knowledge                                     |
++-----+---------------+-------------------------------------------------------------------+
+|33   |Legendary(3)   |Epic Feat: Toughness                                               |
++-----+---------------+-------------------------------------------------------------------+
+|34   |Legendary(4)   |Epic Destiny Feat: Two Handed Specialty                            |
++-----+---------------+-------------------------------------------------------------------+
+
+-----------------------------------------------------------------------------------------------
+Skill Points      8  3  3  3  3  3  4  4  4  4  4  4  4  4  5  5  5  5  5  5
+Skill Name       01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20  Ranks Tome Buffed
+-----------------------------------------------------------------------------------------------
+Balance           1  1  1  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½      11.0    0   26.0
+Bluff                                                                           0.0    0   54.0
+Concentration                                         ½  ½  1  1  1  1  1       6.0    0   84.0
+Diplomacy                                                                       0.0    0   56.0
+Disable Device                                                                  0.0    0   20.0
+Haggle                                                                          0.0    0   58.0
+Heal                                                                            0.0    0   27.0
+Hide                                                                            0.0    0   13.0
+Intimidate        4  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1   23.0    3  115.0
+Jump                                                                            0.0    0   24.0
+Listen                                                                          0.0    0   27.0
+Move Silently                                                                   0.0    0   15.0
+Open Lock                                                                       0.0    0   23.0
+Perform                                                                         0.0    0   56.0
+Repair                                                                          0.0    0   21.0
+Search                                                                          0.0    0   24.0
+Spellcraft                                                                      0.0    0   22.0
+Spot                                                                            0.0    0   27.0
+Swim                                                                            0.0    0   13.0
+Tumble            1                                                        2    3.0    0   18.0
+Use Magic Device           ½  ½  ½  1  1  1  1  1  1  ½  ½  ½  ½  ½  ½  ½      11.0    0   63.0
+-----------------------------------------------------------------------------------------------
+Available Points  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+-----------------------------------------------------------------------------------------------
+
+Self and Party Buffs
+[HR][/HR]
+
+Active Stances
+[HR][/HR]
+User: Aasimar: Protector Bond
+Martial: Doublestrike
+Primal: Ancient Power
+Defensive Combat Stance: Stalwart Defense
+Imbue: Soul of the Dragon: [Selected Dragon Type]
+Battle Trance: Draconic Conviction
+Major Form: Aasimar: Ascendant Bond: Protector
+Mantle: Mantle of the Sentinel
+Auto: Sword and Board
+Auto: Heavy Armor
+Auto: Chaotic
+Auto: Shield
+Auto: Large Shield
+Auto: Bastard Sword
+Auto: Aasimar
+[HR][/HR]
+
+Enhancements: 80 APs, Racial 3, Universal 3
+[HR][/HR]
+Aasimar - Points spent: 16
+Core1 Stronger Bonds I
+Core2 Ability I: +1 Charisma
+Core3 Stronger Bonds II
+Core4 Ability II: +1 Charisma
+Tier1 Improved Recovery I
+Tier1 Fight the Wicked I
+Tier2 Arcanum - 1 Ranks
+Tier2 Fight the Wicked II
+Tier3 Improved Recovery II
+Tier3 Fight The Wicked III
+Tier4 Ascendant Bond: Protector
+[HR][/HR]
+Dragon Lord - Points spent: 22
+Core1 Draconic Soul: Soul of the Green Dragon
+Tier1 Field Skills - 3 Ranks
+Tier1 Martial Superiority: Dragon Lord: Martial Superiority: Strike Twice - 3 Ranks
+Tier1 Dragon's Protection I
+Tier1 Battlefield Tactician I
+Tier2 Action Boost: Action Boost: Haste - 3 Ranks
+Tier2 Dragon's Protection II
+Core2 Draconic Arms
+Tier3 Might or Outburst: Draconic Conviction - 3 Ranks
+Tier3 Dragon's Roar
+Core3 Reckless Devotion
+Tier4 Untouchable Soul
+[HR][/HR]
+Stalwart Defender - Points spent: 41
+Core1 Toughness
+Tier1 Defense Boost - 3 Ranks
+Tier1 Improved Stalwart Defense I: Durable Defense - 3 Ranks
+Tier1 Stalwart Defensive Mastery - 3 Ranks
+Tier1 Threatening Countenance - 3 Ranks
+Core2 Stalwart Defense
+Tier2 Armor Expertise - 3 Ranks
+Core3 Overbalance
+Tier3 Ability I: +1 Constitution
+Tier3 Greater Stalwart Defense I: Hardy Defense - 3 Ranks
+Tier3 Shield Expertise - 3 Ranks
+Tier4 Ability II: +1 Constitution
+Tier4 Swift Defense
+Core4 Stand Fast
+Tier4 Greater Stalwart Defense II: Tenacious Defense - 3 Ranks
+Tier4 Reinforced Defense I: Reinforced Armor - 1 Ranks
+Core5 Defensive Footwork
+Tier5 Against All Odds
+Tier5 The Thick of Battle
+Tier5 Block and Cut - 3 Ranks
+Core6 Last Stand
+[HR][/HR]
+Feydark Illusionist - Points spent: 7
+Core1 Find Familiar: White Tressym
+Tier1 Familiar's Flourish I
+Tier1 Illusory Weaponry
+Tier2 Familiar's Flourish II
+[HR][/HR]
+Epic Destinies: 65 Destiny Points
+[HR][/HR]
+Unyielding Sentinel - Points spent: 37
+Core1 Unyielding
+Tier1 Brace for Impact - 3 Ranks
+Tier1 Attack and Defend - 2 Ranks
+Tier1 Epic Strike: Celestial Mandate
+Tier2 Renewal
+Tier2 Mantle of the Sentinel
+Tier2 Knight's Challenge
+Core2 Ward Against Darkness
+Tier3 Rule of Law - 3 Ranks
+Tier3 Spark of Life
+Tier3 Legendary Shield Mastery - 3 Ranks
+Core3 Stand Against the Tide
+Tier4 Hardened - 3 Ranks
+Tier4 Divine Bulwark
+Tier4 Throw the Boom
+Tier4 The Best Defense - 3 Ranks
+Core4 Last Hope
+Tier5 Strength of Vitality - 3 Ranks
+Tier5 Deific Resilience
+[HR][/HR]
+Legendary Dreadnought - Points spent: 16
+Core1 Fearless
+Tier1 Shrug Off Punishment - 3 Ranks
+Tier1 Epic Tactics - 1 Ranks
+Tier2 Life and Death - 3 Ranks
+Tier2 Honor or Backstab: Honor - 1 Ranks
+Tier2 Extra Action Boost - 1 Ranks
+Core2 Weaponmaster
+Tier3 Armor of Dusk - 3 Ranks
+Tier3 Strike Twice - 1 Ranks
+Core3 Thick Skinned
+[HR][/HR]
+Primal Avatar - Points spent: 12
+Core1 This is your Nature: Thorn
+Tier1 Well Weathered - 3 Ranks
+Tier1 Rejuvenation Cocoon
+Tier2 Spirit Boon: Body - 2 Ranks
+Tier2 Primal Spell: Shard Storm
+Tier3 Natural Shielding
+[HR][/HR]
+Reaper trees:
++---------------+-----+---------------+-------------------+
+|Spell Power    |Base |Critical Chance|Critical Multiplier|
++---------------+-----+---------------+-------------------+
+|Acid           |319.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Light/Alignment|329.0|5%             |25                 |
++---------------+-----+---------------+-------------------+
+|Chaos          |329.0|5%             |25                 |
++---------------+-----+---------------+-------------------+
+|Cold           |350.0|26%            |10                 |
++---------------+-----+---------------+-------------------+
+|Electric       |369.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Evil           |329.0|5%             |25                 |
++---------------+-----+---------------+-------------------+
+|Fire           |319.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Force/Untyped  |340.0|26%            |10                 |
++---------------+-----+---------------+-------------------+
+|Negative       |324.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Physical       |340.0|26%            |10                 |
++---------------+-----+---------------+-------------------+
+|Poison         |319.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Positive       |443.0|5%             |25                 |
++---------------+-----+---------------+-------------------+
+|Repair         |303.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Rust           |303.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Sonic          |353.0|5%             |10                 |
++---------------+-----+---------------+-------------------+
+|Untyped        |340.0|26%            |10                 |
++---------------+-----+---------------+-------------------+
+
+Spell Like / Special Abilities
+[HR][/HR]
+Healing Hands                               
+Shard Storm                                 
+Renewal                                     
+[HR][/HR]
+
+Weapon Damage
+[HR][/HR]
+Melee Power:  167.0
+Doublestrike: 48%
+Strikethrough: 140%
+Mainhand damage ability multiplier: 2
+Offhand damage ability multiplier: 0
+Off-Hand attack Chance: 20%
+Fortification Bypass: 21%
+Dodge Bypass: 0%
+Helpless Damage bonus: 55%
+Ranged Power: 126.0
+Doubleshot Chance: 6%
+
+Sneak Attack Attack bonus: 0
+Sneak Attack Damage: 0d6+0
+
+Main Hand: Ignition, the Fear and Flame
+On Hit         5.65[1d10+3]+128
+Critical 17-18 (5.65[1d10+3]+139) * 2
+Critical 19-20 (5.65[1d10+3]+139) * 2
+DR Bypass: Magic, Slash
+You bypass Concealment miss chance with this weapon
+
+Off Hand: Legendary Frostforged Large Shield
+On Hit         6.85[1d10+6]+43
+Critical 19-18 (6.85[1d10+6]+52) * 3
+Critical 19-20 (6.85[1d10+6]+52) * 3
+DR Bypass: Bludgeon, Magic
+You bypass Concealment miss chance with this weapon
+
+
++-------------+--------------------------+------------------------------------------------------------+
+|Tactical DC  |Value                     |Evaluation                                                  |
++-------------+--------------------------+------------------------------------------------------------+
+|Intimidate   |10+HD+Wis Mod vs d20 + 115|d20 + Intimidate(115)                                       |
++-------------+--------------------------+------------------------------------------------------------+
+|Diplomacy    |CR+Quest Level vs d20 + 56|d20 + Diplomacy(56)                                         |
++-------------+--------------------------+------------------------------------------------------------+
+|Bluff        |CR+Quest Level vs d20 + 54|d20 + Bluff(54)                                             |
++-------------+--------------------------+------------------------------------------------------------+
+|Sunder       |Fortitude vs 47           |10 + Str Mod(16) + Sunder(21)                               |
++-------------+--------------------------+------------------------------------------------------------+
+|Trip         |Balance vs 47             |10 + Str Mod(16) + Trip(21)                                 |
++-------------+--------------------------+------------------------------------------------------------+
+|Dragon's Roar|Will vs 78                |10 + Max Mod(Str(16), Cha(30)) + Stun(38) + Breath Weapon(0)|
++-------------+--------------------------+------------------------------------------------------------+
+
+Equipped Gear Set: Standard
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Armor   |Legendary University Spellshield's Platemail                                            |Drops in: Vecna Unleashed (quest), End chest                                                                     |
+|        |+15 Enhancement Bonus                                                                   |                                                                                                                 |
+|        |Magical Sheltering +36                                                                  |                                                                                                                 |
+|        |Fortification +153%                                                                     |                                                                                                                 |
+|        |Insightful Reflex Save +6                                                               |                                                                                                                 |
+|        |Spell Save +11                                                                          |                                                                                                                 |
+|        |Lost Purpose: Legendary Forbidden Knowledge                                             |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Belt    |Legendary Bladesworn Bandolier                                                          |Drops in: The Bark and the Blade, End chest                                                                      |
+|        |Constitution +14                                                                        |                                                                                                                 |
+|        |Quality Fortification +38%                                                              |                                                                                                                 |
+|        |Quality Physical Sheltering +8                                                          |                                                                                                                 |
+|        |Vitality +48                                                                            |                                                                                                                 |
+|        |Colorless: +2 Festive Constitution                                                      |                                                                                                                 |
+|        |Legendary Forbidden Knowledge                                                           |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Boots   |The Devouring Way                                                                       |Drops in: Vecna Unleashed, any legendary end chest or Vecna Unleashed (epic) saga end reward (Epic Hard or above)|
+|        |Quality Constitution +3                                                                 |                                                                                                                 |
+|        |Quality Incite +31%                                                                     |                                                                                                                 |
+|        |Insightful Intimidate +11                                                               |                                                                                                                 |
+|        |Quality Intimidate +5                                                                   |                                                                                                                 |
+|        |Blue: Sapphire of Resistance +11                                                        |                                                                                                                 |
+|        |Filigree 1: Snake Bite/Grandfather's Shield +2 Constitution(Rare)                       |                                                                                                                 |
+|        |Filigree 2: Soulweaver/Splendid Cacophony +2 Constitution(Rare)                         |                                                                                                                 |
+|        |Filigree 3: Nystul's Mystical Defense/Electrocution +6 MRR(Rare)                        |                                                                                                                 |
+|        |Filigree 4: Nystul's Mystical Defense: +1 Constitution(Rare)                            |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Bracers |Legendary World-Weary Wrappings                                                         |Drops in: The Evil We Know, End chest                                                                            |
+|        |Insightful Wisdom +6                                                                    |                                                                                                                 |
+|        |Insightful Wizardry +147                                                                |                                                                                                                 |
+|        |Quality Fortitude Save +3                                                               |                                                                                                                 |
+|        |Curse Resistance +11                                                                    |                                                                                                                 |
+|        |Colorless: Diamond of Strength +14                                                      |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Cloak   |Legendary Gravekeeper's Heavy Cloak                                                     |Drops in: Locked Away (Part One), end chest                                                                      |
+|        |Profane Lifeforce +51                                                                   |                                                                                                                 |
+|        |Insightful Magical Sheltering +18                                                       |                                                                                                                 |
+|        |Sun: Solar Gem of Charisma (Legendary)                                                  |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Gloves  |Legendary Gloves of the Nimble                                                          |Drops in: Death Hosts This Banquet, end chest                                                                    |
+|        |Insightful Dexterity +6                                                                 |                                                                                                                 |
+|        |Quality Reflex Save +3                                                                  |                                                                                                                 |
+|        |Speed +30%                                                                              |                                                                                                                 |
+|        |Physical Sheltering +37                                                                 |                                                                                                                 |
+|        |Moon: Lunar Gem of Charisma (Legendary)                                                 |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Goggles |Legendary Green Steel Goggles                                                           |Drops in: Altar of Fecundity, Manufactured Ingredient Recipes                                                    |
+|        |Equipment Tier 1: +128 Unconsciousness Range, 16 healing every 10 seconds (Enhancement) |                                                                                                                 |
+|        |Equipment Tier 2: +11 Constitution Skills, +28 Hit Points                               |                                                                                                                 |
+|        |Equipment Tier 3: +6 Constitution Skills, +14 Hit Points                                |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Helmet  |Legendary Lamordian Cowl                                                                |Drops in: The Wish, end chest                                                                                    |
+|        |Insightful Charisma +7                                                                  |                                                                                                                 |
+|        |Insightful Physical Sheltering +18                                                      |                                                                                                                 |
+|        |Melancholic Slot (Accessory): Melancholic Doublestrike (Legendary)                      |                                                                                                                 |
+|        |Dolorous Slot (Accessory): Dolorous Quality Charisma (Legendary)                        |                                                                                                                 |
+|        |Colorless: +2 Festive Charisma                                                          |                                                                                                                 |
+|        |Sun: Solar Gem of Magical Resistance Rating (Legendary)                                 |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Necklace|Legendary Black Dynamo                                                                  |Drops in: Zoo Creeper, end chest                                                                                 |
+|        |Insightful Constitution +7                                                              |                                                                                                                 |
+|        |Insightful Armor-Piercing +11%                                                          |                                                                                                                 |
+|        |Melancholic Slot (Accessory): Melancholic Constitution (Legendary)                      |                                                                                                                 |
+|        |Dolorous Slot (Accessory): Dolorous Quality Damage (Legendary)                          |                                                                                                                 |
+|        |Colorless: Diamond of Intimidate +20                                                    |                                                                                                                 |
+|        |Moon: Lunar Gem of Constitution (Legendary)                                             |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Ring1   |Legendary Nocturne Ring                                                                 |Drops in: A Frosty Reception, End chest, Frost Giant chest                                                       |
+|        |Command +7                                                                              |                                                                                                                 |
+|        |True Seeing                                                                             |                                                                                                                 |
+|        |Insightful Incite +52%                                                                  |                                                                                                                 |
+|        |Insightful Fortification +71%                                                           |                                                                                                                 |
+|        |Eminence of Winter                                                                      |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Ring2   |Legendary Ring of Winter's Chill                                                        |Drops in: Quid Pro Quo, End Chest                                                                                |
+|        |Ice Lore +21%                                                                           |                                                                                                                 |
+|        |Glaciation +142                                                                         |                                                                                                                 |
+|        |Kinetic Lore +21%                                                                       |                                                                                                                 |
+|        |Impulse +142                                                                            |                                                                                                                 |
+|        |Green: Sapphire of Dodge +14                                                            |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Trinket |Legendary Heartshard                                                                    |Drops in: Snowfall and Sunlight, end chest (rare)                                                                |
+|        |Legendary Conditioning +15%                                                             |                                                                                                                 |
+|        |Melancholic Slot (Accessory): Melancholic Charisma (Legendary)                          |                                                                                                                 |
+|        |Dolorous Slot (Accessory): Dolorous Healing Amplification (Legendary)                   |                                                                                                                 |
+|        |Miserable Slot (Accessory): Miserable Stunning (Legendary)                              |                                                                                                                 |
+|        |Green: Sapphire of False Life +54                                                       |                                                                                                                 |
+|        |Colorless: Globe of True Imperial Blood                                                 |                                                                                                                 |
+|        |Sun: Solar Gem of Constitution (Legendary)                                              |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Weapon1 |Ignition, the Fear and Flame                                                            |Drops in: Fire Over Morgrave, end chest                                                                          |
+|        |Identity Crisis                                                                         |                                                                                                                 |
+|        |Legendary Paralysis                                                                     |                                                                                                                 |
+|        |Legendary Slay Living                                                                   |                                                                                                                 |
+|        |Flaming Blast 7                                                                         |                                                                                                                 |
+|        |Planar Searing: Warp the Seared                                                         |                                                                                                                 |
+|        |Leashed Power: Unleash the Fire                                                         |                                                                                                                 |
+|        |Sentient Weapon Personality: Sentient Jewel of the Hopeful                              |                                                                                                                 |
+|        |Filigree 5: Sanctified Fervor/Reverberation +2 Charisma(Rare)                           |                                                                                                                 |
+|        |Filigree 6: To Hell and Back/Embraced by Light +2 Charisma(Rare)                        |                                                                                                                 |
+|        |Filigree 7: Snake Bite: +1 Constitution(Rare)                                           |                                                                                                                 |
+|        |Filigree 8: Grandfather's Shield: +1 Constitution(Rare)                                 |                                                                                                                 |
+|        |Filigree 9: Soulweaver: +1 Constitution(Rare)                                           |                                                                                                                 |
+|        |Filigree 10: Splendid Cacophony: +1 Constitution(Rare)                                  |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Weapon2 |Legendary Frostforged Large Shield                                                      |Drops in: Snowfall and Sunlight, end chest                                                                       |
+|        |Guardbreaking                                                                           |                                                                                                                 |
+|        |Melancholic Slot (Weapon): Melancholic Arcana (Legendary)                               |                                                                                                                 |
+|        |Dolorous Slot (Weapon): Dolorous Arcana: Positive (Legendary)                           |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+
+Equipped Gear Set: Tanky Knowledge set
+
+Equipped Gear Set: Standard
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Armor   |Legendary University Spellshield's Platemail                                            |Drops in: Vecna Unleashed (quest), End chest                                                                     |
+|        |Lost Purpose: Legendary Forbidden Knowledge                                             |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Belt    |Legendary Bladesworn Bandolier                                                          |Drops in: The Bark and the Blade, End chest                                                                      |
+|        |Colorless: +2 Festive Constitution                                                      |                                                                                                                 |
+|        |Legendary Forbidden Knowledge                                                           |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Boots   |The Devouring Way                                                                       |Drops in: Vecna Unleashed, any legendary end chest or Vecna Unleashed (epic) saga end reward (Epic Hard or above)|
+|        |Blue: Sapphire of Resistance +11                                                        |                                                                                                                 |
+|        |Filigree 1: Snake Bite/Grandfather's Shield +2 Constitution(Rare)                       |                                                                                                                 |
+|        |Filigree 2: Soulweaver/Splendid Cacophony +2 Constitution(Rare)                         |                                                                                                                 |
+|        |Filigree 3: Nystul's Mystical Defense/Electrocution +6 MRR(Rare)                        |                                                                                                                 |
+|        |Filigree 4: Nystul's Mystical Defense: +1 Constitution(Rare)                            |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Bracers |Legendary World-Weary Wrappings                                                         |Drops in: The Evil We Know, End chest                                                                            |
+|        |Colorless: Diamond of Strength +14                                                      |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Cloak   |Legendary Gravekeeper's Heavy Cloak                                                     |Drops in: Locked Away (Part One), end chest                                                                      |
+|        |Sun: Solar Gem of Charisma (Legendary)                                                  |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Gloves  |Legendary Gloves of the Nimble                                                          |Drops in: Death Hosts This Banquet, end chest                                                                    |
+|        |Moon: Lunar Gem of Charisma (Legendary)                                                 |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Goggles |Legendary Green Steel Goggles                                                           |Drops in: Altar of Fecundity, Manufactured Ingredient Recipes                                                    |
+|        |Equipment Tier 1: +128 Unconsciousness Range, 16 healing every 10 seconds (Enhancement) |                                                                                                                 |
+|        |Equipment Tier 2: +11 Constitution Skills, +28 Hit Points                               |                                                                                                                 |
+|        |Equipment Tier 3: +6 Constitution Skills, +14 Hit Points                                |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Helmet  |Legendary Lamordian Cowl                                                                |Drops in: The Wish, end chest                                                                                    |
+|        |Melancholic Slot (Accessory): Melancholic Doublestrike (Legendary)                      |                                                                                                                 |
+|        |Dolorous Slot (Accessory): Dolorous Quality Charisma (Legendary)                        |                                                                                                                 |
+|        |Colorless: +2 Festive Charisma                                                          |                                                                                                                 |
+|        |Sun: Solar Gem of Magical Resistance Rating (Legendary)                                 |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Necklace|Legendary Black Dynamo                                                                  |Drops in: Zoo Creeper, end chest                                                                                 |
+|        |Melancholic Slot (Accessory): Melancholic Constitution (Legendary)                      |                                                                                                                 |
+|        |Dolorous Slot (Accessory): Dolorous Quality Damage (Legendary)                          |                                                                                                                 |
+|        |Colorless: Diamond of Intimidate +20                                                    |                                                                                                                 |
+|        |Moon: Lunar Gem of Constitution (Legendary)                                             |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Ring1   |Legendary Nocturne Ring                                                                 |Drops in: A Frosty Reception, End chest, Frost Giant chest                                                       |
+|        |Eminence of Winter                                                                      |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Ring2   |Legendary Ring of Winter's Chill                                                        |Drops in: Quid Pro Quo, End Chest                                                                                |
+|        |Green: Sapphire of Dodge +14                                                            |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Trinket |Legendary Heartshard                                                                    |Drops in: Snowfall and Sunlight, end chest (rare)                                                                |
+|        |Melancholic Slot (Accessory): Melancholic Charisma (Legendary)                          |                                                                                                                 |
+|        |Dolorous Slot (Accessory): Dolorous Healing Amplification (Legendary)                   |                                                                                                                 |
+|        |Miserable Slot (Accessory): Miserable Stunning (Legendary)                              |                                                                                                                 |
+|        |Green: Sapphire of False Life +54                                                       |                                                                                                                 |
+|        |Colorless: Globe of True Imperial Blood                                                 |                                                                                                                 |
+|        |Sun: Solar Gem of Constitution (Legendary)                                              |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Weapon1 |Ignition, the Fear and Flame                                                            |Drops in: Fire Over Morgrave, end chest                                                                          |
+|        |Planar Searing: Warp the Seared                                                         |                                                                                                                 |
+|        |Leashed Power: Unleash the Fire                                                         |                                                                                                                 |
+|        |Sentient Weapon Personality: Sentient Jewel of the Hopeful                              |                                                                                                                 |
+|        |Filigree 5: Sanctified Fervor/Reverberation +2 Charisma(Rare)                           |                                                                                                                 |
+|        |Filigree 6: To Hell and Back/Embraced by Light +2 Charisma(Rare)                        |                                                                                                                 |
+|        |Filigree 7: Snake Bite: +1 Constitution(Rare)                                           |                                                                                                                 |
+|        |Filigree 8: Grandfather's Shield: +1 Constitution(Rare)                                 |                                                                                                                 |
+|        |Filigree 9: Soulweaver: +1 Constitution(Rare)                                           |                                                                                                                 |
+|        |Filigree 10: Splendid Cacophony: +1 Constitution(Rare)                                  |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|Weapon2 |Legendary Frostforged Large Shield                                                      |Drops in: Snowfall and Sunlight, end chest                                                                       |
+|        |Melancholic Slot (Weapon): Melancholic Arcana (Legendary)                               |                                                                                                                 |
+|        |Dolorous Slot (Weapon): Dolorous Arcana: Positive (Legendary)                           |                                                                                                                 |
++--------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+
+
