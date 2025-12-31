@@ -23,7 +23,7 @@ def get_stat(ddo_file: list, label_string: str) -> int:
 
 
 def get_expected_damage(ddo_file: list) -> float:
-    """In DDO, the player rolls a D20 to damage. Because this is a Monte Carlo destribution, calculate the expected damage by adding all damage from 1 to 20 and
+    """In DDO, the player rolls a D20 to damage. Because this is a Monte Carlo distribution, calculate the expected damage by adding all damage from 1 to 20 and
     then dividing this total by 20."""
     
     on_hit_label = "On Hit         "
