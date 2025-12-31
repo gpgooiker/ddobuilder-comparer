@@ -38,13 +38,21 @@ def get_expected_damage(ddo_file: list) -> float:
     for row in ddo_file:
         if isinstance(row, str) and row.startswith(on_hit_label):
             strip_label = row.strip(on_hit_label)
-            pos_of_opening_bracket = strip_label.find("[")
-            pos_of_closing_bracket = strip_label.find("]")
-            if pos_of_opening_bracket != -1 and dice_multiplier == 0.0:
+            opening_bracket_id = strip_label.find("[")
+            closing_bracket_id = strip_label.find("]")
+            if opening_bracket_id != -1 and dice_multiplier == 0.0:
                 # Check to see if dice_mulitiplier is zero to make only the Main Hand weapon gets calculated
-                dice_multiplier_string = strip_label[:pos_of_opening_bracket]
+                dice_multiplier_string = strip_label[:opening_bracket_id]
                 dice_multiplier = float(dice_multiplier_string)
-                dice_string = strip_label[(pos_of_opening_bracket + 1):pos_of_closing_bracket]
+                dice_string = strip_label[(opening_bracket_id + 1):closing_bracket_id]
+                # A dice string has the format 2d8+2, wich means: "roll two eight-sided dice and add 2"
+                print(dice_string) # Log this
+                d_id = dice_string.find("d")
+                plus_sign_id = dice_string.find("+")
+                number_of_dice = float(dice_string[:d_id])
+                dice_size = float(dice_string[(d_id + 1):plus_sign_id])
+                add_to_roll = float(dice_string[(plus_sign_id + 1):])
+                dice_average = (number_of_dice + (number_of_dice * dice_size)) / 2 + add_to_roll
 
 
-    return dice_multiplier
+    return dice_average
