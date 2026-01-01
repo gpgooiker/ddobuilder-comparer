@@ -5,7 +5,8 @@ labels = {
     "melee_power": "Melee Power:  ",
     "doublestrike": "Doublestrike: ",
     "mainhand_damage_ability_multiplier": "Mainhand damage ability multiplier: ",
-    "helpless_damage_bonus": "Helpless Damage bonus: "
+    "helpless_damage_bonus": "Helpless Damage bonus: ",
+    "hit_points": "HP:"
 }
 
 def get_stat(ddo_file: list, label_string: str) -> float:
@@ -23,6 +24,8 @@ def get_stat(ddo_file: list, label_string: str) -> float:
             extracted_float = float(strip_percentage)
             logger.debug(f'Extracted {label_string} {extracted_float}.')
             return extracted_float
+
+    return extracted_float
 
 def get_expected_damage(ddo_file: list) -> float:
     """In DDO, the player rolls a D20 to damage. Because this is a Monte Carlo distribution, calculate the expected damage from one hit by adding all damage
@@ -107,19 +110,43 @@ def get_expected_damage(ddo_file: list) -> float:
                     average_damage_on_crit19_20 = _calculate_crit_damage(dice_multiplier, dice_average, plus_damage_on_crit, crit_multiplier_on_19_20)
                     logger.debug(f'Calculated the average damage of big crits on 19 or 20: {average_damage_on_crit19_20}.')
                     crit_damage_on_19_20_calculated = True
-
-        hit_range = 20.0 - crit_range - crit_range_on_19_20
-        logger.debug(f'Now we know the crit ranges of crits and big crits, we calculated the normal hit range: {hit_range}')
-
-        expected_damage = ((average_damage_on_hit * hit_range) +
-                           (average_damage_on_crit * crit_range) +
-                           (average_damage_on_crit19_20 * crit_range_on_19_20)
-                           ) / 20
-        logger.debug(f'Calculated the expected damage by averaging all die rolls from 1 - 20: {expected_damage}.')
-        return expected_damage
     except:
         logger.exception("Exception when calculating the average damage from normal crits and crits on 19 or 20")
 
+    hit_range = 20.0 - crit_range - crit_range_on_19_20
+    logger.debug(f'Now we know the crit ranges of crits and big crits, we calculated the normal hit range: {hit_range}')
+
+    expected_damage = ((average_damage_on_hit * hit_range) +
+                        (average_damage_on_crit * crit_range) +
+                        (average_damage_on_crit19_20 * crit_range_on_19_20)
+                        ) / 20
+    logger.debug(f'Calculated the expected damage by averaging all die rolls from 1 - 20: {expected_damage}.')
+    return expected_damage
+
+def get_hit_points(ddo_file: list, label_string: str) -> float:
+    """Extract the defensive stats from this block in a ddo build file:
+                 Start Tome Final      HP:       6408      Displacement:   50%
+        Str:    10    8    42      Unc Rng:  -153      Incorp:          0%
+        Dex:     8    8    30      PRR:       384      AC:             185
+        Con:    18    8   103      MRR:       210      +Healing Amp:   146
+        Int:    10    8    24      Dodge:   16/27      -Healing Amp:    10
+        Wis:    10    8    30      Fort:     345%      Repair Amp:      10
+    """
+    hit_points = 0.0
+
+    for row in ddo_file:
+        if label_string in row:
+            stripped_up_to_spaces = row[row.find(label_string) + len(label_string):]
+            stripped_up_to_hit_points = stripped_up_to_spaces.strip()
+            integer_length_of_hit_points = stripped_up_to_hit_points.find(" ")
+            hit_points = stripped_up_to_hit_points[:integer_length_of_hit_points]
+            logger.debug(f'Extracted hit point total: {hit_points}.')
+            return hit_points
+
+    return hit_points
+
+def normalize(number: float) -> float:
+    return (number + 100) / 100
 
 def _is_a_dice_string(dice_string: str) -> bool:
     """A dice string has the format 2d8+2, wich means: 'roll two eight-sided dice and add 2'"""
