@@ -6,7 +6,11 @@ labels = {
     "doublestrike": "Doublestrike:",
     "mainhand_damage_ability_multiplier": "Mainhand damage ability multiplier:",
     "helpless_damage_bonus": "Helpless Damage bonus:",
-    "hit_points": "HP:"
+    "hit_points": "HP:",
+    "prr": "PRR:",
+    "mrr": "MRR:",
+    "dodge": "Dodge:",
+    "armor_class": "AC:"
 }
 
 def get_stat(ddo_file: list, label_string: str) -> float:
@@ -139,6 +143,10 @@ def get_expected_damage(ddo_file: list) -> float:
 
 def normalize(number: float) -> float:
     return (number + 100) / 100
+
+def reduction_rating_to_percentage(rr: float) -> float:
+    """DDO has stats called MRR and PRR. These convert to percentages with this formula: https://ddowiki.com/page/Physical_Resistance_Rating#Formula."""
+    return 100.0 / (100.0 + rr)
 
 def _get_stat_from_the_start_of_a_string(string_starting_with_stat:str) -> int:
     stat_as_array = []
