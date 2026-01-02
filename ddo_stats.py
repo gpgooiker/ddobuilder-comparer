@@ -108,7 +108,7 @@ def get_expected_damage(ddo_file: list) -> float:
                 plus_damage_on_crit = float(plus_damage_on_crit_stripped)
 
                 if ("19-20" in row) is False and crit_damage_calculated is False:
-                    logger.info("Getting the first non 19-20 crit info in the build file, then setting a guard.")
+                    logger.info("Getting the normal crit info from the first source in the build file.")
                     crit_multiplier = 0.0
 
                     logger.debug(f'Extracted the bonus damage on all crits, those on 19 or 20 as well: {plus_damage_on_crit}.')
@@ -121,7 +121,7 @@ def get_expected_damage(ddo_file: list) -> float:
                     logger.debug(f'Calculated the average damage of a normal, non 19/20 crit: {average_damage_on_crit}.')
                     crit_damage_calculated = True
                 elif crit_damage_on_19_20_calculated is False:
-                    logger.info("Getting the first 19-20 crit.")
+                    logger.info("Getting the info about the first 19-20 crit source in the build file.")
 
                     crit_multiplier_on_19_20 = float(row[(row.rfind("* ") + 1):])
                     logger.debug(f'Extracted the crit multiplier of big crits on 19 or 20: {crit_multiplier_on_19_20}.')
@@ -146,7 +146,20 @@ def normalize(number: float) -> float:
 
 def reduction_rating_to_percentage(rr: float) -> float:
     """DDO has stats called MRR and PRR. These convert to percentages with this formula: https://ddowiki.com/page/Physical_Resistance_Rating#Formula."""
-    return 100.0 / (100.0 + rr)
+    return 1 - (100.0 / (100.0 + rr))
+
+def normalize_dodge(dodge: float) -> float:
+    min = 6
+    max = 50
+
+    return (dodge - min) / (max - min)
+
+def normalize_armor_class(armor_class: float) -> float:
+    min = 30.0
+    max = 400.0
+    weight = 0.7 # Lower priority for armor_class, entirely subjective
+
+    return weight * (armor_class - min) / (max - min)
 
 def _get_stat_from_the_start_of_a_string(string_starting_with_stat:str) -> int:
     stat_as_array = []
