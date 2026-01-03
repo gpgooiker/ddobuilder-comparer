@@ -46,7 +46,7 @@ def get_stat(ddo_file: list, label_string: str) -> float:
     return extracted_float
 
 def get_expected_damage(ddo_file: list) -> float:
-    """In DDO, the player rolls a D20 to damage. Because this is a Monte Carlo distribution, calculate the expected damage from one hit by adding all damage
+    """In DDO, the player rolls a D20 to damage. Calculate the expected damage from one hit by adding all damage
     from 1 to 20 and then dividing this total by 20.
 
     We get the expected damage from one hit from this block in the build file:
@@ -108,7 +108,6 @@ def get_expected_damage(ddo_file: list) -> float:
                 plus_damage_on_crit = float(plus_damage_on_crit_stripped)
 
                 if ("19-20" in row) is False and crit_damage_calculated is False:
-                    logger.info("Getting the normal crit info from the first source in the build file.")
                     crit_multiplier = 0.0
 
                     logger.debug(f'Extracted the bonus damage on all crits, those on 19 or 20 as well: {plus_damage_on_crit}.')
@@ -121,8 +120,6 @@ def get_expected_damage(ddo_file: list) -> float:
                     logger.debug(f'Calculated the average damage of a normal, non 19/20 crit: {average_damage_on_crit}.')
                     crit_damage_calculated = True
                 elif crit_damage_on_19_20_calculated is False:
-                    logger.info("Getting the info about the first 19-20 crit source in the build file.")
-
                     crit_multiplier_on_19_20 = float(row[(row.rfind("* ") + 1):])
                     logger.debug(f'Extracted the crit multiplier of big crits on 19 or 20: {crit_multiplier_on_19_20}.')
                     average_damage_on_crit19_20 = _calculate_crit_damage(dice_multiplier, dice_average, plus_damage_on_crit, crit_multiplier_on_19_20)
@@ -141,7 +138,7 @@ def get_expected_damage(ddo_file: list) -> float:
     logger.debug(f'Calculated the expected damage by averaging all die rolls from 1 - 20: {expected_damage}.')
     return expected_damage
 
-def normalize(number: float) -> float:
+def convert_to_factor(number: float) -> float:
     return (number + 100) / 100
 
 def reduction_rating_to_percentage(rr: float) -> float:
@@ -149,6 +146,7 @@ def reduction_rating_to_percentage(rr: float) -> float:
     return 1 - (100.0 / (100.0 + rr))
 
 def normalize_dodge(dodge: float) -> float:
+    """To compare stats that work differently and have a different range, we normalize them so they're a number between 0 and 1. https://en.wikipedia.org/wiki/Feature_scaling"""
     min = 6
     max = 50
 
