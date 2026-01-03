@@ -157,9 +157,8 @@ def normalize_dodge(dodge: float) -> float:
 def normalize_armor_class(armor_class: float) -> float:
     min = 30.0
     max = 400.0
-    weight = 0.7 # Lower priority for armor_class, entirely subjective
 
-    return weight * (armor_class - min) / (max - min)
+    return (armor_class - min) / (max - min)
 
 def _get_stat_from_the_start_of_a_string(string_starting_with_stat:str) -> int:
     stat_as_array = []
