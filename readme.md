@@ -3,7 +3,7 @@ In the game Dungeons and Dragons Online (DDO), you can build your very own chara
 ## Optimize your build
 But how do you know if what you build is better than the last version? These scripts are a proposal to calculate fitness scores for your builds. When you change something in the build, check the new fitness scores to see if your new version is better than it used to be. Disclaimer: this is prototype code to enable discussion on the math. It's not going to work on all build exports of Maetrim's DDOBuilderV2.
 
-## How to run the code and import your own builds
+## How to run the code
 Clone or download the code and make sure you have Python installed on your system.
 
 ### Windows
@@ -16,7 +16,17 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Open the project directory in Visual Studio Code. Open `read_a_DDOBuilder_file.ipynb`, this is a Jupyter notebook. You'll find a 'Run All' button. Use it and check the `ddobuilder-comparer.log` file. You'll find two fitness scores there: an offensive one and a defensive one. The defensive fitness score should be in the same ballpark as the 'Effective hit points' score in DDO.
+### Mac OS
+
+```zsh
+cd path/to/ddobuilder-comparer/
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Import DDOBuilder files
+Once the Python dependencies are installed, open the project directory in Visual Studio Code. Open `read_a_DDOBuilder_file.ipynb`, this is a Jupyter notebook. You'll find a 'Run All' button. Use it and check the `ddobuilder-comparer.log` file. You'll find two fitness scores there: an offensive one and a defensive one. The defensive fitness score should be in the same ballpark as the 'Effective hit points' score in DDO.
 
 To test your own build file, export it in Maetrims DDOBuilderV2. Paste the code in `paste_your_export_here.txt` and run the notebook again.
 
