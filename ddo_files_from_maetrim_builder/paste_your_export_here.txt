@@ -1,14 +1,14 @@
-Character name: Temp hp low life tank with a battle trance and sacred hp THF
+Character name: 11 20 Fighter reaper tank 1202 42077
 Classes: 20 Dragon Lord, E10, L4
 Race: Aasimar              Alignment: Chaotic Neutral
 
-     Start Tome Final      HP:       6424      Displacement:   50%
-Str:    10    8    42      Unc Rng:   -25      Incorp:         10%
-Dex:     8    8    45      PRR:       355      AC:             224
-Con:    18    8   104      MRR:       219      +Healing Amp:   146
-Int:    10    8    23      Dodge:   25/27      -Healing Amp:    10
-Wis:    10    8    42      Fort:     342%      Repair Amp:      10
-Cha:    18    8    69      SR:          0      BAB:             25
+     Start Tome Final      HP:       6394      Displacement:   50%
+Str:    10    8    39      Unc Rng:  -153      Incorp:         10%
+Dex:     8    8    40      PRR:       403      AC:             232
+Con:    18    8   104      MRR:       209      +Healing Amp:   146
+Int:    10    8    23      Dodge:   24/30      -Healing Amp:    10
+Wis:    10    8    43      Fort:     342%      Repair Amp:      10
+Cha:    18    8    65      SR:          0      BAB:             25
 DR: 
 Immunities: Fear, Knockdown, Death Effects, Most forms of Knockdown, Fear
 
@@ -23,7 +23,7 @@ Past Life: Warforged(2)
 Epic Past Lives
 [HR][/HR]
 Past Life: Martial Sphere: Doublestrike
-Past Life: Primal Sphere: Ancient Power
+Past Life: Primal Sphere: Ancient Power(2)
 
 
 Special Feats
@@ -65,20 +65,20 @@ Total Favor Rewards(4)
 
 Saves:
 +---------+---------------+---+
-|Fortitude|               | 92|
-|         |vs Poison      | 97|
-|         |vs Disease     | 93|
+|Fortitude|               | 91|
+|         |vs Poison      | 96|
+|         |vs Disease     | 92|
 +---------+---------------+---+
-|Will     |               | 65|
-|         |vs Enchantment | 66|
-|         |vs Illusion    | 65|
-|         |vs Fear        | 65|
-|         |vs Curse       | 65|
+|Will     |               | 62|
+|         |vs Enchantment | 63|
+|         |vs Illusion    | 62|
+|         |vs Fear        | 62|
+|         |vs Curse       | 62|
 +---------+---------------+---+
-|Reflex   |               | 60|
-|         |vs Traps       | 60|
-|         |vs Spell       | 63|
-|         |vs Magic       | 60|
+|Reflex   |               | 52|
+|         |vs Traps       | 52|
+|         |vs Spell       | 55|
+|         |vs Magic       | 52|
 +---------+---------------+---+
 
 Marked with a* is no fail on a 1 if required DC met
@@ -88,21 +88,21 @@ Marked with a* is no fail on a 1 if required DC met
 +---------+----------+----------+
 |Acid:    |50        |36%       |
 +---------+----------+----------+
-|Chaos:   |0         |42%       |
+|Chaos:   |0         |25%       |
 +---------+----------+----------+
 |Cold:    |50        |36%       |
 +---------+----------+----------+
 |Electric:|50        |36%       |
 +---------+----------+----------+
-|Evil:    |0         |48%       |
+|Evil:    |0         |32%       |
 +---------+----------+----------+
 |Fire:    |45        |36%       |
 +---------+----------+----------+
 |Force:   |0         |25%       |
 +---------+----------+----------+
-|Good:    |0         |23%       |
+|Good:    |0         |0%        |
 +---------+----------+----------+
-|Lawful:  |0         |23%       |
+|Lawful:  |0         |0%        |
 +---------+----------+----------+
 |Light:   |0         |0%        |
 +---------+----------+----------+
@@ -114,97 +114,97 @@ Marked with a* is no fail on a 1 if required DC met
 +---------+----------+----------+
 
 Class and Feat Selection
-+-----+---------------+---------------------------------------------------------------------+
-|Level|Class          |Feats                                                                |
-+-----+---------------+---------------------------------------------------------------------+
-|1    |Dragon Lord(1) |Aasimar Bond: Aasimar: Protector Bond                                |
-|     |               |Standard: Shield Proficiency (General)                               |
-|     |               |Minor Draconic Aura: Nevalarich's Hunger                             |
-|     |               |Class Skills: Intimidate(4)                                          |
-|     |               |Cross Class Skills: Balance(2), Tumble(2)                            |
-+-----+---------------+---------------------------------------------------------------------+
-|2    |Dragon Lord(2) |Fighter Bonus Feat: Weapon Focus: Slashing Weapons                   |
-|     |               |Class Skills: Intimidate(1)                                          |
-|     |               |Cross Class Skills: Balance(2)                                       |
-+-----+---------------+---------------------------------------------------------------------+
-|3    |Dragon Lord(3) |Standard: Exotic Weapon Proficiency: Bastard Sword                   |
-+-----+---------------+---------------------------------------------------------------------+
-|4    |Dragon Lord(4) |Fighter Bonus Feat: Shield Mastery                                   |
-|     |               |Alter Dark Gift: Empty Feat Slot                                     |
-|     |               |Constitution: +1 Level up                                            |
-|     |               |Cross Class Skills: Balance(1), Use Magic Device(1)                  |
-+-----+---------------+---------------------------------------------------------------------+
-|5    |Dragon Lord(5) |Class Skills: Intimidate(1)                                          |
-+-----+---------------+---------------------------------------------------------------------+
-|6    |Dragon Lord(6) |Standard: Toughness                                                  |
-|     |               |Fighter Bonus Feat: Weapon Specialization: Slashing Weapons          |
-+-----+---------------+---------------------------------------------------------------------+
-|7    |Dragon Lord(7) |Class Skills: Intimidate(1)                                          |
-|     |               |Cross Class Skills: Balance(1), Use Magic Device(2)                  |
-+-----+---------------+---------------------------------------------------------------------+
-|8    |Dragon Lord(8) |Major Draconic Aura: Sinvala's Toughness                             |
-+-----+---------------+---------------------------------------------------------------------+
-|9    |Dragon Lord(9) |Standard: Improved Shield Mastery                                    |
-+-----+---------------+---------------------------------------------------------------------+
-|10   |Dragon Lord(10)|Fighter Bonus Feat: Improved Critical: Slashing Weapons              |
-+-----+---------------+---------------------------------------------------------------------+
-|11   |Dragon Lord(11)|Class Skills: Intimidate(1)                                          |
-+-----+---------------+---------------------------------------------------------------------+
-|12   |Dragon Lord(12)|Standard: Toughness                                                  |
-|     |               |Fighter Bonus Feat: Dodge                                            |
-+-----+---------------+---------------------------------------------------------------------+
-|13   |Dragon Lord(13)|Class Skills: Intimidate(1), Jump(1)                                 |
-+-----+---------------+---------------------------------------------------------------------+
-|14   |Dragon Lord(14)|Fighter Bonus Feat: Greater Shield Mastery                           |
-|     |               |Class Skills: Intimidate(1), Jump(1)                                 |
-+-----+---------------+---------------------------------------------------------------------+
-|15   |Dragon Lord(15)|Standard: Toughness                                                  |
-|     |               |Class Skills: Intimidate(1), Jump(2)                                 |
-+-----+---------------+---------------------------------------------------------------------+
-|16   |Dragon Lord(16)|Superior Draconic Aura: The Truthful One's Might                     |
-+-----+---------------+---------------------------------------------------------------------+
-|17   |Dragon Lord(17)|Class Skills: Intimidate(1), Jump(1)                                 |
-|     |               |Cross Class Skills: Balance(1), Concentration(1), Use Magic Device(1)|
-+-----+---------------+---------------------------------------------------------------------+
-|18   |Dragon Lord(18)|Standard: Toughness                                                  |
-|     |               |Fighter Bonus Feat: Mobility                                         |
-+-----+---------------+---------------------------------------------------------------------+
-|19   |Dragon Lord(19)|Class Skills: Intimidate(1), Jump(1)                                 |
-+-----+---------------+---------------------------------------------------------------------+
-|20   |Dragon Lord(20)|Fighter Bonus Feat: Spring Attack                                    |
-|     |               |Class Skills: Intimidate(1), Jump(3)                                 |
-|     |               |Cross Class Skills: Concentration(1)                                 |
-+-----+---------------+---------------------------------------------------------------------+
-|21   |Epic(1)        |Epic Feat: Toughness                                                 |
-+-----+---------------+---------------------------------------------------------------------+
-|22   |Epic(2)        |Epic Destiny Feat: Perfect Shield Mastery                            |
-+-----+---------------+---------------------------------------------------------------------+
-|23   |Epic(3)        |                                                                     |
-+-----+---------------+---------------------------------------------------------------------+
-|24   |Epic(4)        |Epic Feat: Epic Toughness                                            |
-+-----+---------------+---------------------------------------------------------------------+
-|25   |Epic(5)        |Epic Destiny Feat: Doublestrike                                      |
-+-----+---------------+---------------------------------------------------------------------+
-|26   |Epic(6)        |                                                                     |
-+-----+---------------+---------------------------------------------------------------------+
-|27   |Epic(7)        |Epic Feat: Toughness                                                 |
-+-----+---------------+---------------------------------------------------------------------+
-|28   |Epic(8)        |Epic Destiny Feat: Elusive Target                                    |
-+-----+---------------+---------------------------------------------------------------------+
-|29   |Epic(9)        |                                                                     |
-+-----+---------------+---------------------------------------------------------------------+
-|30   |Epic(10)       |Epic Feat: Epic Damage Reduction                                     |
-|     |               |Legendary Feat: Scion of Celestia                                    |
-|     |               |Dark Gift Upgrade: Empty Feat Slot                                   |
-+-----+---------------+---------------------------------------------------------------------+
-|31   |Legendary(1)   |Epic Destiny Feat: Legendary Toughness                               |
-+-----+---------------+---------------------------------------------------------------------+
-|32   |Legendary(2)   |Constitution: +1 Level up                                            |
-+-----+---------------+---------------------------------------------------------------------+
-|33   |Legendary(3)   |Epic Feat: Defensive Tumble                                          |
-+-----+---------------+---------------------------------------------------------------------+
-|34   |Legendary(4)   |Epic Destiny Feat: Two Handed Specialty                              |
-+-----+---------------+---------------------------------------------------------------------+
++-----+---------------+--------------------------------------------------------------+
+|Level|Class          |Feats                                                         |
++-----+---------------+--------------------------------------------------------------+
+|1    |Dragon Lord(1) |Aasimar Bond: Aasimar: Protector Bond                         |
+|     |               |Standard: Shield Proficiency (General)                        |
+|     |               |Minor Draconic Aura: Nevalarich's Hunger                      |
+|     |               |Class Skills: Intimidate(4)                                   |
+|     |               |Cross Class Skills: Balance(2), Tumble(2)                     |
++-----+---------------+--------------------------------------------------------------+
+|2    |Dragon Lord(2) |Fighter Bonus Feat: Weapon Focus: Slashing Weapons            |
+|     |               |Class Skills: Intimidate(1)                                   |
+|     |               |Cross Class Skills: Balance(1), Tumble(1)                     |
++-----+---------------+--------------------------------------------------------------+
+|3    |Dragon Lord(3) |Standard: Exotic Weapon Proficiency: Bastard Sword            |
+|     |               |Cross Class Skills: Tumble(1)                                 |
++-----+---------------+--------------------------------------------------------------+
+|4    |Dragon Lord(4) |Fighter Bonus Feat: Shield Mastery                            |
+|     |               |Alter Dark Gift: Empty Feat Slot                              |
+|     |               |Constitution: +1 Level up                                     |
+|     |               |Cross Class Skills: Balance(1), Use Magic Device(1)           |
++-----+---------------+--------------------------------------------------------------+
+|5    |Dragon Lord(5) |Class Skills: Intimidate(1)                                   |
++-----+---------------+--------------------------------------------------------------+
+|6    |Dragon Lord(6) |Standard: Toughness                                           |
+|     |               |Fighter Bonus Feat: Weapon Specialization: Slashing Weapons   |
+|     |               |Cross Class Skills: Tumble(1), Use Magic Device(1)            |
++-----+---------------+--------------------------------------------------------------+
+|7    |Dragon Lord(7) |Class Skills: Intimidate(1)                                   |
+|     |               |Cross Class Skills: Tumble(2), Use Magic Device(1)            |
++-----+---------------+--------------------------------------------------------------+
+|8    |Dragon Lord(8) |Major Draconic Aura: Sinvala's Toughness                      |
+|     |               |Cross Class Skills: Balance(1), Tumble(1), Use Magic Device(1)|
++-----+---------------+--------------------------------------------------------------+
+|9    |Dragon Lord(9) |Standard: Improved Shield Mastery                             |
++-----+---------------+--------------------------------------------------------------+
+|10   |Dragon Lord(10)|Fighter Bonus Feat: Improved Critical: Slashing Weapons       |
++-----+---------------+--------------------------------------------------------------+
+|11   |Dragon Lord(11)|Class Skills: Intimidate(1)                                   |
++-----+---------------+--------------------------------------------------------------+
+|12   |Dragon Lord(12)|Standard: Toughness                                           |
+|     |               |Fighter Bonus Feat: Dodge                                     |
++-----+---------------+--------------------------------------------------------------+
+|13   |Dragon Lord(13)|Class Skills: Intimidate(1)                                   |
++-----+---------------+--------------------------------------------------------------+
+|14   |Dragon Lord(14)|Fighter Bonus Feat: Greater Shield Mastery                    |
++-----+---------------+--------------------------------------------------------------+
+|15   |Dragon Lord(15)|Standard: Toughness                                           |
+|     |               |Cross Class Skills: Balance(1), Tumble(2), Use Magic Device(1)|
++-----+---------------+--------------------------------------------------------------+
+|16   |Dragon Lord(16)|Superior Draconic Aura: The Truthful One's Might              |
++-----+---------------+--------------------------------------------------------------+
+|17   |Dragon Lord(17)|Class Skills: Intimidate(1)                                   |
++-----+---------------+--------------------------------------------------------------+
+|18   |Dragon Lord(18)|Standard: Heavy Armor Champion                                |
+|     |               |Fighter Bonus Feat: Mobility                                  |
++-----+---------------+--------------------------------------------------------------+
+|19   |Dragon Lord(19)|Class Skills: Intimidate(1), Jump(1)                          |
++-----+---------------+--------------------------------------------------------------+
+|20   |Dragon Lord(20)|Fighter Bonus Feat: Spring Attack                             |
+|     |               |Class Skills: Intimidate(1), Jump(3)                          |
++-----+---------------+--------------------------------------------------------------+
+|21   |Epic(1)        |Epic Feat: Heavy Armor Master                                 |
++-----+---------------+--------------------------------------------------------------+
+|22   |Epic(2)        |Epic Destiny Feat: Perfect Shield Mastery                     |
++-----+---------------+--------------------------------------------------------------+
+|23   |Epic(3)        |                                                              |
++-----+---------------+--------------------------------------------------------------+
+|24   |Epic(4)        |Epic Feat: Epic Toughness                                     |
++-----+---------------+--------------------------------------------------------------+
+|25   |Epic(5)        |Epic Destiny Feat: Elusive Target                             |
++-----+---------------+--------------------------------------------------------------+
+|26   |Epic(6)        |                                                              |
++-----+---------------+--------------------------------------------------------------+
+|27   |Epic(7)        |Epic Feat: Bulwark of Defense                                 |
++-----+---------------+--------------------------------------------------------------+
+|28   |Epic(8)        |Epic Destiny Feat: Toughness                                  |
++-----+---------------+--------------------------------------------------------------+
+|29   |Epic(9)        |                                                              |
++-----+---------------+--------------------------------------------------------------+
+|30   |Epic(10)       |Epic Feat: Epic Damage Reduction                              |
+|     |               |Legendary Feat: Scion of Celestia                             |
+|     |               |Dark Gift Upgrade: Empty Feat Slot                            |
++-----+---------------+--------------------------------------------------------------+
+|31   |Legendary(1)   |Epic Destiny Feat: Legendary Toughness                        |
++-----+---------------+--------------------------------------------------------------+
+|32   |Legendary(2)   |Constitution: +1 Level up                                     |
++-----+---------------+--------------------------------------------------------------+
+|33   |Legendary(3)   |Epic Feat: Defensive Tumble                                   |
++-----+---------------+--------------------------------------------------------------+
+|34   |Legendary(4)   |Epic Destiny Feat: Two Handed Specialty                       |
++-----+---------------+--------------------------------------------------------------+
 
 Class and Feat Selection
 +-----+---------------+-----------------------------------------------------------+
@@ -250,14 +250,14 @@ Class and Feat Selection
 +-----+---------------+-----------------------------------------------------------+
 |17   |Dragon Lord(17)|                                                           |
 +-----+---------------+-----------------------------------------------------------+
-|18   |Dragon Lord(18)|Standard: Toughness                                        |
+|18   |Dragon Lord(18)|Standard: Heavy Armor Champion                             |
 |     |               |Fighter Bonus Feat: Mobility                               |
 +-----+---------------+-----------------------------------------------------------+
 |19   |Dragon Lord(19)|                                                           |
 +-----+---------------+-----------------------------------------------------------+
 |20   |Dragon Lord(20)|Fighter Bonus Feat: Spring Attack                          |
 +-----+---------------+-----------------------------------------------------------+
-|21   |Epic(1)        |Epic Feat: Toughness                                       |
+|21   |Epic(1)        |Epic Feat: Heavy Armor Master                              |
 +-----+---------------+-----------------------------------------------------------+
 |22   |Epic(2)        |Epic Destiny Feat: Perfect Shield Mastery                  |
 +-----+---------------+-----------------------------------------------------------+
@@ -265,13 +265,13 @@ Class and Feat Selection
 +-----+---------------+-----------------------------------------------------------+
 |24   |Epic(4)        |Epic Feat: Epic Toughness                                  |
 +-----+---------------+-----------------------------------------------------------+
-|25   |Epic(5)        |Epic Destiny Feat: Doublestrike                            |
+|25   |Epic(5)        |Epic Destiny Feat: Elusive Target                          |
 +-----+---------------+-----------------------------------------------------------+
 |26   |Epic(6)        |                                                           |
 +-----+---------------+-----------------------------------------------------------+
-|27   |Epic(7)        |Epic Feat: Toughness                                       |
+|27   |Epic(7)        |Epic Feat: Bulwark of Defense                              |
 +-----+---------------+-----------------------------------------------------------+
-|28   |Epic(8)        |Epic Destiny Feat: Elusive Target                          |
+|28   |Epic(8)        |Epic Destiny Feat: Toughness                               |
 +-----+---------------+-----------------------------------------------------------+
 |29   |Epic(9)        |                                                           |
 +-----+---------------+-----------------------------------------------------------+
@@ -292,8 +292,7 @@ Granted Feats
 [HR][/HR]
 Magical Training
 Diehard
-Deific Warding
-Quick Draw
+Lay on Hands 
 [HR][/HR]
 
 Automatic Feats
@@ -498,13 +497,13 @@ Class and Feat Selection (Consolidated)
 +-----+---------------+-------------------------------------------------------+
 |17   |Dragon Lord(17)|                                                       |
 +-----+---------------+-------------------------------------------------------+
-|18   |Dragon Lord(18)|Standard: Toughness                                    |
+|18   |Dragon Lord(18)|Standard: Heavy Armor Champion                         |
 +-----+---------------+-------------------------------------------------------+
 |19   |Dragon Lord(19)|                                                       |
 +-----+---------------+-------------------------------------------------------+
 |20   |Dragon Lord(20)|Fighter Bonus Feat: Spring Attack                      |
 +-----+---------------+-------------------------------------------------------+
-|21   |Epic(1)        |Epic Feat: Toughness                                   |
+|21   |Epic(1)        |Epic Feat: Heavy Armor Master                          |
 |     |               |Automatic: Epic Power                                  |
 |     |               |Automatic: Epic Skills                                 |
 +-----+---------------+-------------------------------------------------------+
@@ -516,13 +515,13 @@ Class and Feat Selection (Consolidated)
 +-----+---------------+-------------------------------------------------------+
 |24   |Epic(4)        |Epic Feat: Epic Toughness                              |
 +-----+---------------+-------------------------------------------------------+
-|25   |Epic(5)        |Epic Destiny Feat: Doublestrike                        |
+|25   |Epic(5)        |Epic Destiny Feat: Elusive Target                      |
 +-----+---------------+-------------------------------------------------------+
 |26   |Epic(6)        |Automatic: Epic Knowledge                              |
 +-----+---------------+-------------------------------------------------------+
-|27   |Epic(7)        |Epic Feat: Toughness                                   |
+|27   |Epic(7)        |Epic Feat: Bulwark of Defense                          |
 +-----+---------------+-------------------------------------------------------+
-|28   |Epic(8)        |Epic Destiny Feat: Elusive Target                      |
+|28   |Epic(8)        |Epic Destiny Feat: Toughness                           |
 +-----+---------------+-------------------------------------------------------+
 |29   |Epic(9)        |Automatic: Epic Power                                  |
 +-----+---------------+-------------------------------------------------------+
@@ -543,53 +542,57 @@ Class and Feat Selection (Consolidated)
 Skill Points      8  3  3  3  3  3  4  4  4  4  4  4  4  4  5  5  5  5  5  5
 Skill Name       01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20  Ranks Tome Buffed
 -----------------------------------------------------------------------------------------------
-Balance           1  1  1  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½      11.0    0   40.0
-Bluff                                                                           0.0    0   56.0
-Concentration                                                     ½  ½  ½  ½    2.0    0   67.0
-Diplomacy                                                                       0.0    0   58.0
+Balance           1  ½     ½  ½        ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½       8.5    0   50.5
+Bluff                                                                           0.0    0   54.0
+Concentration                                                                   0.0    0   71.0
+Diplomacy                                                                       0.0    0   56.0
 Disable Device                                                                  0.0    0   22.0
-Haggle                                                                          0.0    0   60.0
+Haggle                                                                          0.0    0   58.0
 Heal                                                                            0.0    0   36.0
-Hide                                                                            0.0    0   32.0
-Intimidate        4  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1   23.0    3  108.0
-Jump                                                  1  1  2  2  1  1  1  3   12.0    0   43.0
+Hide                                                                            0.0    0   26.0
+Intimidate        4  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1   23.0    3  105.0
+Jump                                                                    1  3    4.0    0   40.0
 Listen                                                                          0.0    0   36.0
-Move Silently                                                                   0.0    0   34.0
-Open Lock                                                                       0.0    0   33.0
-Perform                                                                         0.0    0   58.0
+Move Silently                                                                   0.0    0   28.0
+Open Lock                                                                       0.0    0   31.0
+Perform                                                                         0.0    0   56.0
 Repair                                                                          0.0    0   23.0
 Search                                                                          0.0    0   26.0
 Spellcraft                                                                      0.0    0   24.0
 Spot                                                                            0.0    0   36.0
-Swim                                                                            0.0    0   24.0
-Tumble            1                                                             1.0    0   45.0
-Use Magic Device           ½  ½  ½  1  1  1  1  1  1  ½  ½  ½  ½  ½  ½  ½      11.0    0   65.0
+Swim                                                                            0.0    0   25.0
+Tumble            1  ½  ½        ½  1  ½  ½  ½  ½  ½  ½  ½  1  1  1  1  ½  ½   12.0    0   35.0
+Use Magic Device           ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½  ½       8.0    0   60.0
 -----------------------------------------------------------------------------------------------
-Available Points  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+Available Points  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
 -----------------------------------------------------------------------------------------------
 
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
 |Statistic            |Enhancement|Insightful|Artifact|Quality|Profane|Equipment|Competence|Exceptional|Festive|Fortune|
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
-|PRR                  |+37        |+18       |+30     |+8     |+30    |         |          |           |       |+5     |
+|PRR                  |+36        |+18       |+30     |+8     |+30    |         |          |           |       |+5     |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
-|Dodge                |+14        |+7        |        |       |       |         |          |           |       |       |
+|Dodge                |+14        |          |        |+3     |       |         |          |           |       |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
-|MRR                  |+36        |+18       |+30     |       |+30    |         |          |           |       |       |
+|MRR                  |+36        |+18       |+30     |+9     |       |         |          |           |       |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
 |Constitution         |+15        |+7        |+4      |+3     |+4     |         |          |+2         |+2     |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
-|Charisma             |+15        |+7        |+4      |+3     |+2     |         |          |+1         |+2     |       |
+|Charisma             |+15        |+7        |        |+3     |+2     |         |          |+1         |+2     |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
 |Fortification        |+150       |+71       |        |+38    |       |         |          |           |       |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
-|Intimidate           |           |+7        |        |       |       |         |+20       |           |       |       |
+|Intimidate           |           |+7        |        |       |       |         |+19       |           |       |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
 |Healing Amplification|           |          |        |       |       |         |+61       |           |       |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
-|Doublestrike         |+17        |          |        |       |       |         |          |           |       |       |
+|Doublestrike         |+17        |          |        |+4     |       |         |          |           |       |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
 |Melee Power          |+12        |          |        |       |+15    |         |          |           |       |       |
++---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
+|Melee Threat         |           |+59       |        |       |       |         |          |           |       |       |
++---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
+|Fortification Bypass |+23        |+11       |        |       |       |         |          |           |       |       |
 +---------------------+-----------+----------+--------+-------+-------+---------+----------+-----------+-------+-------+
 
 Self and Party Buffs
@@ -606,7 +609,7 @@ Battle Trance: Draconic Conviction
 Major Form: Aasimar: Ascendant Bond: Protector
 Mantle: Mantle of the Sentinel
 Auto: Sword and Board
-Auto: Medium Armor
+Auto: Heavy Armor
 Auto: Chaotic
 Auto: Shield
 Auto: Large Shield
@@ -677,45 +680,46 @@ Epic Destinies: 65 Destiny Points
 Unyielding Sentinel - Points spent: 37
 Core1 Unyielding
 Tier1 Brace for Impact - 3 Ranks
-Tier1 Attack and Defend - 2 Ranks
 Tier1 Epic Strike: Celestial Mandate
-Tier2 Renewal
 Tier2 Mantle of the Sentinel
 Tier2 Knight's Challenge
 Core2 Ward Against Darkness
+Tier2 Renewal
+Tier2 Shield Prowess - 1 Ranks
 Tier3 Rule of Law - 3 Ranks
 Tier3 Spark of Life
 Tier3 Legendary Shield Mastery - 3 Ranks
 Core3 Stand Against the Tide
+Tier3 Hands of the Sentinel
 Tier4 Hardened - 3 Ranks
-Tier4 Divine Bulwark
-Tier4 Throw the Boom
 Tier4 The Best Defense - 3 Ranks
 Core4 Last Hope
+Tier4 Divine Bulwark
 Tier5 Strength of Vitality - 3 Ranks
-Tier5 Deific Resilience
+Tier5 Undying Vanguard
 [HR][/HR]
 Legendary Dreadnought - Points spent: 16
 Core1 Fearless
 Tier1 Shrug Off Punishment - 3 Ranks
-Tier1 Epic Tactics - 1 Ranks
+Tier1 Push Through The Line - 3 Ranks
 Tier2 Life and Death - 3 Ranks
-Tier2 Honor or Backstab: Honor - 1 Ranks
-Tier2 Extra Action Boost - 1 Ranks
 Core2 Weaponmaster
-Tier3 Armor of Dusk - 3 Ranks
-Tier3 Strike Twice - 1 Ranks
+Tier2 Extra Action Boost - 1 Ranks
 Core3 Thick Skinned
+Tier3 Armor of Dusk - 3 Ranks
 [HR][/HR]
 Primal Avatar - Points spent: 12
 Core1 This is your Nature: Thorn
 Tier1 Well Weathered - 3 Ranks
-Tier1 Rejuvenation Cocoon
-Tier2 Spirit Boon: Body - 2 Ranks
+Tier1 Nature's Friend: Squirrel of Luck
 Tier2 Primal Spell: Shard Storm
+Tier2 Spirit Boon: Body - 2 Ranks
 Tier3 Natural Shielding
 [HR][/HR]
 Reaper trees:
+Grim Barricade - Points spent: 0
+[HR][/HR]
+
 +---------------+-----+---------------+-------------------+
 |Spell Power    |Base |Critical Chance|Critical Multiplier|
 +---------------+-----+---------------+-------------------+
@@ -741,13 +745,13 @@ Reaper trees:
 +---------------+-----+---------------+-------------------+
 |Poison         |207.0|5%             |10                 |
 +---------------+-----+---------------+-------------------+
-|Positive       |259.0|5%             |25                 |
+|Positive       |408.0|27%            |45                 |
 +---------------+-----+---------------+-------------------+
 |Repair         |191.0|5%             |10                 |
 +---------------+-----+---------------+-------------------+
 |Rust           |191.0|5%             |10                 |
 +---------------+-----+---------------+-------------------+
-|Sonic          |241.0|5%             |10                 |
+|Sonic          |239.0|5%             |10                 |
 +---------------+-----+---------------+-------------------+
 |Untyped        |197.0|5%             |10                 |
 +---------------+-----+---------------+-------------------+
@@ -757,12 +761,13 @@ Spell Like / Special Abilities
 Healing Hands                               
 Shard Storm                                 
 Renewal                                     
+Lay on Hands                                
 [HR][/HR]
 
 Weapon Damage
 [HR][/HR]
-Melee Power:  175.0
-Doublestrike: 48%
+Melee Power:  174.0
+Doublestrike: 45%
 Strikethrough: 140%
 Mainhand damage ability multiplier: 2
 Offhand damage ability multiplier: 0
@@ -771,24 +776,24 @@ Fortification Bypass: 44%
 Dodge Bypass: 0%
 Helpless Damage bonus: 55%
 Ranged Power: 126.0
-Doubleshot Chance: 6%
+Doubleshot Chance: 4%
 
 Sneak Attack Attack bonus: 0
 Sneak Attack Damage: 0d6+0
 
 Main Hand: Attuned Bone Bastard Sword
-On Hit         5.45[1d10+3]+130
-Critical 17-18 (5.45[1d10+3]+154) * 2
-Critical 19-20 (5.45[1d10+3]+154) * 2
-DR Bypass: Adamantine, Magic, Slash
+On Hit         5.45[1d10+3]+113
+Critical 17-18 (5.45[1d10+3]+137) * 2
+Critical 19-20 (5.45[1d10+3]+137) * 2
+DR Bypass: Adamantine, Magic, Silver, Slash
 You bypass Incorporeality miss chance with this weapon
 You bypass Concealment miss chance with this weapon
 
-Off Hand: Dinosaur Bone Large Shield
-On Hit         6.45[1d10+6]+49
-Critical 19-18 (6.45[1d10+6]+73) * 3
-Critical 19-20 (6.45[1d10+6]+73) * 3
-DR Bypass: Adamantine, Bludgeon, Magic
+Off Hand: Legendary Large Shield of the Fallen Age
+On Hit         6.85[1d10]+37
+Critical 19-18 (6.85[1d10]+61) * 3
+Critical 19-20 (6.85[1d10]+61) * 3
+DR Bypass: Adamantine, Bludgeon, Magic, Silver
 You bypass Incorporeality miss chance with this weapon
 You bypass Concealment miss chance with this weapon
 
@@ -796,252 +801,249 @@ You bypass Concealment miss chance with this weapon
 +-------------+--------------------------+------------------------------------------------------------+
 |Tactical DC  |Value                     |Evaluation                                                  |
 +-------------+--------------------------+------------------------------------------------------------+
-|Intimidate   |10+HD+Wis Mod vs d20 + 108|d20 + Intimidate(108)                                       |
+|Intimidate   |10+HD+Wis Mod vs d20 + 105|d20 + Intimidate(105)                                       |
 +-------------+--------------------------+------------------------------------------------------------+
-|Diplomacy    |CR+Quest Level vs d20 + 58|d20 + Diplomacy(58)                                         |
+|Diplomacy    |CR+Quest Level vs d20 + 56|d20 + Diplomacy(56)                                         |
 +-------------+--------------------------+------------------------------------------------------------+
-|Bluff        |CR+Quest Level vs d20 + 56|d20 + Bluff(56)                                             |
+|Bluff        |CR+Quest Level vs d20 + 54|d20 + Bluff(54)                                             |
 +-------------+--------------------------+------------------------------------------------------------+
-|Sunder       |Fortitude vs 49           |10 + Str Mod(16) + Sunder(23)                               |
+|Sunder       |Fortitude vs 43           |10 + Str Mod(14) + Sunder(19)                               |
 +-------------+--------------------------+------------------------------------------------------------+
-|Trip         |Balance vs 49             |10 + Str Mod(16) + Trip(23)                                 |
+|Trip         |Balance vs 43             |10 + Str Mod(14) + Trip(19)                                 |
 +-------------+--------------------------+------------------------------------------------------------+
-|Dragon's Roar|Will vs 79                |10 + Max Mod(Str(16), Cha(29)) + Stun(40) + Breath Weapon(0)|
+|Dragon's Roar|Will vs 71                |10 + Max Mod(Str(14), Cha(27)) + Stun(34) + Breath Weapon(0)|
 +-------------+--------------------------+------------------------------------------------------------+
 
 Equipped Gear Set: Standard
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Armor   |Dinosaur Scale Plate                                                 |Drops in: Skeletons in the Closet, The Mountain Keeper chest, end chest             |
-|        |+15 Enhancement Bonus                                                |                                                                                    |
-|        |IoD: Armor: Scale Slot: Goldscale                                    |                                                                                    |
-|        |IoD: Armor: Fang Slot: Voidfang                                      |                                                                                    |
-|        |IoD: Accessory: Claw Slot: Claw: Stunning                            |                                                                                    |
-|        |IoD: Accessory: Horn Slot: Horn: +12 Resistance                      |                                                                                    |
-|        |IoD: Set Bonus Slot: The Legendary Dread Isle's Curse                |                                                                                    |
-|        |Green: Sapphire of Armored Agility +2                                |                                                                                    |
-|        |Blue: Sapphire of Defense +36                                        |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Belt    |Legendary Bladesworn Bandolier                                       |Drops in: The Bark and the Blade, End chest                                         |
-|        |Constitution +14                                                     |                                                                                    |
-|        |Quality Fortification +38%                                           |                                                                                    |
-|        |Quality Physical Sheltering +8                                       |                                                                                    |
-|        |Vitality +48                                                         |                                                                                    |
-|        |Green: Legendary Sapphire of Riposte                                 |                                                                                    |
-|        |Colorless: Diamond of Insightful Wisdom +5                           |                                                                                    |
-|        |Deck Curse: Curse of Major Sheltering                                |                                                                                    |
-|        |Legendary Forbidden Knowledge                                        |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Boots   |Legendary Beachcombers                                               |Drops in: Whispers of Return, end chest                                             |
-|        |Speed +30%                                                           |                                                                                    |
-|        |Dodge +14%                                                           |                                                                                    |
-|        |Reflex Save +12                                                      |                                                                                    |
-|        |IoD: Accessory: Scale Slot: Scale: +14 Wisdom                        |                                                                                    |
-|        |Green: Emerald of Vile Empowerment                                   |                                                                                    |
-|        |Colorless: +2 Festive Constitution                                   |                                                                                    |
-|        |The Legendary Dread Isle's Curse                                     |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Bracers |Legendary Cold Iron Bracers                                          |Drops in: Immortality Lessons, End chest, 'Granny' Optional Chest                   |
-|        |Ghostly                                                              |                                                                                    |
-|        |Protection +10                                                       |                                                                                    |
-|        |Vitality +44                                                         |                                                                                    |
-|        |Quality False Life +12                                               |                                                                                    |
-|        |Green: Draconic Soul Gem                                             |                                                                                    |
-|        |Eminence of Winter                                                   |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Cloak   |Legendary Gravekeeper's Heavy Cloak                                  |Drops in: Locked Away (Part One), end chest                                         |
-|        |Profane Lifeforce +51                                                |                                                                                    |
-|        |Insightful Magical Sheltering +18                                    |                                                                                    |
-|        |Melancholic Slot (Accessory): Melancholic Strength (Legendary)       |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Seeker (Legendary)               |                                                                                    |
-|        |Green: Sapphire of Natural Armor +14                                 |                                                                                    |
-|        |Colorless: +2 Festive Dexterity                                      |                                                                                    |
-|        |Sun: Solar Gem of Charisma (Legendary)                               |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Gloves  |Legendary Gloves of the Nimble                                       |Drops in: Death Hosts This Banquet, end chest                                       |
-|        |Insightful Dexterity +6                                              |                                                                                    |
-|        |Quality Reflex Save +3                                               |                                                                                    |
-|        |Physical Sheltering +37                                              |                                                                                    |
-|        |Green: Sapphire of Healing Amplification +57                         |                                                                                    |
-|        |Colorless: Diamond of Tumble +15                                     |                                                                                    |
-|        |Moon: Lunar Gem of Magical Protection (Legendary)                    |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Goggles |Legendary Doctor Gustav's Warped Lenses                              |Drops in: Body and Mind, end chest                                                  |
-|        |Profane Spell Focus +2                                               |                                                                                    |
-|        |Quality Spell Penetration +3                                         |                                                                                    |
-|        |Wizardry +310                                                        |                                                                                    |
-|        |Insightful Dodge +7%                                                 |                                                                                    |
-|        |Green: Golem's Heart                                                 |                                                                                    |
-|        |Colorless: Diamond of Dexterity +14                                  |                                                                                    |
-|        |Sun: Solar Gem of Armor Layers (Legendary)                           |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Helmet  |Legendary Lamordian Cowl                                             |Drops in: The Wish, end chest                                                       |
-|        |Insightful Charisma +7                                               |                                                                                    |
-|        |Insightful Physical Sheltering +18                                   |                                                                                    |
-|        |Melancholic Slot (Accessory): Melancholic Doublestrike (Legendary)   |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Quality Charisma (Legendary)     |                                                                                    |
-|        |Green: Sapphire of Protection +11                                    |                                                                                    |
-|        |Colorless: +2 Festive Charisma                                       |                                                                                    |
-|        |Sun: Solar Gem of Magical Resistance Rating (Legendary)              |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Necklace|Legendary Black Dynamo                                               |Drops in: Zoo Creeper, end chest                                                    |
-|        |Insightful Constitution +7                                           |                                                                                    |
-|        |Insightful Armor-Piercing +11%                                       |                                                                                    |
-|        |Melancholic Slot (Accessory): Melancholic Constitution (Legendary)   |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Quality Constitution (Legendary) |                                                                                    |
-|        |Green: Sapphire of Good Luck + 3                                     |                                                                                    |
-|        |Colorless: Diamond of Intimidate +20                                 |                                                                                    |
-|        |Moon: Lunar Gem of Constitution (Legendary)                          |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Ring1   |Legendary Nocturne Ring                                              |Drops in: A Frosty Reception, End chest, Frost Giant chest                          |
-|        |Command +7                                                           |                                                                                    |
-|        |True Seeing                                                          |                                                                                    |
-|        |Insightful Incite +52%                                               |                                                                                    |
-|        |Insightful Fortification +71%                                        |                                                                                    |
-|        |Green: Essence of the Champion of the Twins                          |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Ring2   |Dinosaur Bone Ring                                                   |Drops in: The Isle of Dread, any legendary chest; or Dread saga legendary end reward|
-|        |IoD: Accessory: Artifact Scale Slot: Scale: +58 False Life           |                                                                                    |
-|        |IoD: Accessory: Artifact Fang Slot: Fang: Accuracy +23               |                                                                                    |
-|        |IoD: Accessory: Artifact Claw Slot: Claw: Stunning                   |                                                                                    |
-|        |IoD: Accessory: Artifact Horn Slot: Horn: +23 Armor Piercing         |                                                                                    |
-|        |Blue: Ravil's Book of Legendary Recipes                              |                                                                                    |
-|        |Green: Topaz of Deadly +11                                           |                                                                                    |
-|        |Yellow: Topaz of Melee Power +12                                     |                                                                                    |
-|        |Filigree 1: Snake Bite/Grandfather's Shield +2 Constitution(Rare)    |                                                                                    |
-|        |Filigree 2: Soulweaver/Splendid Cacophony +2 Constitution(Rare)      |                                                                                    |
-|        |Filigree 3: Nystul's Mystical Defense/Electrocution +6 MRR(Rare)     |                                                                                    |
-|        |Filigree 4: Nystul's Mystical Defense: +1 Constitution(Rare)         |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Trinket |Legendary Heartshard                                                 |Drops in: Snowfall and Sunlight, end chest (rare)                                   |
-|        |Legendary Conditioning +15%                                          |                                                                                    |
-|        |Melancholic Slot (Accessory): Melancholic Charisma (Legendary)       |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Healing Amplification (Legendary)|                                                                                    |
-|        |Miserable Slot (Accessory): Miserable Stunning (Legendary)           |                                                                                    |
-|        |Green: Topaz of Quick Movements                                      |                                                                                    |
-|        |Colorless: Globe of True Imperial Blood                              |                                                                                    |
-|        |Sun: Solar Gem of Constitution (Legendary)                           |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Weapon1 |Attuned Bone Bastard Sword                                           |Drops in: Skeletons in the Closet, end chest                                        |
-|        |IoD: Weapon: Scale Slot: Flamescale                                  |                                                                                    |
-|        |IoD: Weapon: Fang Slot: Brightfang                                   |                                                                                    |
-|        |IoD: Weapon: Claw Slot: Meltclaw: Constitution                       |                                                                                    |
-|        |IoD: Weapon: Horn Slot: Brighthorn                                   |                                                                                    |
-|        |Sentient Weapon Personality: Sentient Jewel of the Hopeful           |                                                                                    |
-|        |Filigree 5: Sanctified Fervor/Reverberation +2 Charisma(Rare)        |                                                                                    |
-|        |Filigree 6: To Hell and Back/Embraced by Light +2 Charisma(Rare)     |                                                                                    |
-|        |Filigree 7: Snake Bite: +1 Constitution(Rare)                        |                                                                                    |
-|        |Filigree 8: Grandfather's Shield: +1 Constitution(Rare)              |                                                                                    |
-|        |Filigree 9: Soulweaver: +1 Constitution(Rare)                        |                                                                                    |
-|        |Filigree 10: Splendid Cacophony: +1 Constitution(Rare)               |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Weapon2 |Dinosaur Bone Large Shield                                           |Drops in: Skeletons in the Closet, The Mountain Keeper chest, end chest             |
-|        |IoD: Weapon: Scale Slot: Shadowscale                                 |                                                                                    |
-|        |IoD: Weapon: Fang Slot: Shadowfang                                   |                                                                                    |
-|        |IoD: Armor: Scale Slot: Fragment of Extra-planar Alignment           |                                                                                    |
-|        |IoD: Armor: Fang Slot: Silverfang                                    |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Armor   |Dinosaur Plate Armor                                                                    |Drops in: Skeletons in the Closet, The Mountain Keeper chest, end chest             |
+|        |+15 Enhancement Bonus                                                                   |                                                                                    |
+|        |IoD: Armor: Scale Slot: Goldscale                                                       |                                                                                    |
+|        |IoD: Armor: Fang Slot: Voidfang                                                         |                                                                                    |
+|        |IoD: Accessory: Claw Slot: Claw: Stunning                                               |                                                                                    |
+|        |IoD: Accessory: Horn Slot: Horn: +12 Resistance                                         |                                                                                    |
+|        |IoD: Set Bonus Slot: The Legendary Dread Isle's Curse                                   |                                                                                    |
+|        |Green: Sapphire of Armored Agility +2                                                   |                                                                                    |
+|        |Blue: Sapphire of Defense +36                                                           |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Belt    |Legendary Bladesworn Bandolier                                                          |Drops in: The Bark and the Blade, End chest                                         |
+|        |Constitution +14                                                                        |                                                                                    |
+|        |Quality Fortification +38%                                                              |                                                                                    |
+|        |Quality Physical Sheltering +8                                                          |                                                                                    |
+|        |Vitality +48                                                                            |                                                                                    |
+|        |Green: Essence of the Champion of the Twins                                             |                                                                                    |
+|        |Colorless: Diamond of Dexterity +12                                                     |                                                                                    |
+|        |Deck Curse: Curse of Major Sheltering                                                   |                                                                                    |
+|        |Legendary Forbidden Knowledge                                                           |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Boots   |Legendary Beachcombers                                                                  |Drops in: Whispers of Return, end chest                                             |
+|        |Speed +30%                                                                              |                                                                                    |
+|        |Dodge +14%                                                                              |                                                                                    |
+|        |Reflex Save +12                                                                         |                                                                                    |
+|        |IoD: Accessory: Scale Slot: Scale: +14 Wisdom                                           |                                                                                    |
+|        |Green: Emerald of Vile Empowerment                                                      |                                                                                    |
+|        |Colorless: Diamond of Strength +12                                                      |                                                                                    |
+|        |The Legendary Dread Isle's Curse                                                        |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Bracers |Legendary Cold Iron Bracers                                                             |Drops in: Immortality Lessons, End chest, 'Granny' Optional Chest                   |
+|        |Ghostly                                                                                 |                                                                                    |
+|        |Protection +10                                                                          |                                                                                    |
+|        |Vitality +44                                                                            |                                                                                    |
+|        |Quality False Life +12                                                                  |                                                                                    |
+|        |Green: Draconic Soul Gem                                                                |                                                                                    |
+|        |Eminence of Winter                                                                      |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Cloak   |Legendary Lamordian Heavy Cloak                                                         |Drops in: Cold Snap, end chest                                                      |
+|        |Quality Doublestrike +4%                                                                |                                                                                    |
+|        |Insightful Magical Sheltering +18                                                       |                                                                                    |
+|        |Melancholic Slot (Accessory): Melancholic Charisma (Legendary)                          |                                                                                    |
+|        |Dolorous Slot (Accessory): Dolorous Seeker (Legendary)                                  |                                                                                    |
+|        |Green: Sapphire of Natural Armor +14                                                    |                                                                                    |
+|        |Colorless: Globe of True Imperial Blood                                                 |                                                                                    |
+|        |Sun: Solar Gem of Dodge Cap (Legendary)                                                 |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Gloves  |Legendary Birchlore Gauntlets                                                           |Drops in: Spiders and Flies, end chest                                              |
+|        |Healing Lore +22%                                                                       |                                                                                    |
+|        |Devotion +149                                                                           |                                                                                    |
+|        |Vitality +47                                                                            |                                                                                    |
+|        |IoD: Accessory: Scale Slot: Scale: Positive Spell Critical Damage                       |                                                                                    |
+|        |Green: Silvertongue Sapphire                                                            |                                                                                    |
+|        |Colorless: Diamond of Intimidate +19                                                    |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Goggles |Legendary Green Steel Goggles                                                           |Drops in: Altar of Fecundity, Manufactured Ingredient Recipes                       |
+|        |Equipment Tier 1: +128 Unconsciousness Range, 16 healing every 10 seconds (Enhancement) |                                                                                    |
+|        |Equipment Tier 2: +11 Strength Skills, +28 Hit Points                                   |                                                                                    |
+|        |Equipment Tier 3: +6 Constitution Skills, +14 Hit Points                                |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Helmet  |Legendary Lamordian Cowl                                                                |Drops in: The Wish, end chest                                                       |
+|        |Insightful Charisma +7                                                                  |                                                                                    |
+|        |Insightful Physical Sheltering +18                                                      |                                                                                    |
+|        |Melancholic Slot (Accessory): Melancholic Doublestrike (Legendary)                      |                                                                                    |
+|        |Dolorous Slot (Accessory): Dolorous Quality Charisma (Legendary)                        |                                                                                    |
+|        |Green: Topaz of Wizardry +294                                                           |                                                                                    |
+|        |Colorless: +2 Festive Charisma                                                          |                                                                                    |
+|        |Sun: Solar Gem of Magical Resistance Rating (Legendary)                                 |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Necklace|Legendary Black Dynamo                                                                  |Drops in: Zoo Creeper, end chest                                                    |
+|        |Insightful Constitution +7                                                              |                                                                                    |
+|        |Insightful Armor-Piercing +11%                                                          |                                                                                    |
+|        |Melancholic Slot (Accessory): Melancholic Constitution (Legendary)                      |                                                                                    |
+|        |Dolorous Slot (Accessory): Dolorous Quality Constitution (Legendary)                    |                                                                                    |
+|        |Green: Sapphire of Good Luck + 3                                                        |                                                                                    |
+|        |Colorless: +2 Festive Constitution                                                      |                                                                                    |
+|        |Moon: Lunar Gem of Constitution (Legendary)                                             |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Ring1   |Legendary Nocturne Ring                                                                 |Drops in: A Frosty Reception, End chest, Frost Giant chest                          |
+|        |Command +7                                                                              |                                                                                    |
+|        |True Seeing                                                                             |                                                                                    |
+|        |Insightful Incite +52%                                                                  |                                                                                    |
+|        |Insightful Fortification +71%                                                           |                                                                                    |
+|        |Green: Sapphire of Accuracy +20                                                         |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Ring2   |Dinosaur Bone Ring                                                                      |Drops in: The Isle of Dread, any legendary chest; or Dread saga legendary end reward|
+|        |IoD: Accessory: Artifact Scale Slot: Scale: +58 False Life                              |                                                                                    |
+|        |IoD: Accessory: Artifact Fang Slot: Fang: Healing Amplification +61                     |                                                                                    |
+|        |IoD: Accessory: Artifact Claw Slot: Claw: Stunning                                      |                                                                                    |
+|        |IoD: Accessory: Artifact Horn Slot: Horn: +23 Armor Piercing                            |                                                                                    |
+|        |Blue: Diamond of Insightful Dexterity +5                                                |                                                                                    |
+|        |Green: Essence of the Dethek Runestone                                                  |                                                                                    |
+|        |Yellow: Topaz of Melee Power +12                                                        |                                                                                    |
+|        |Filigree 1: Snake Bite/Grandfather's Shield +2 Constitution(Rare)                       |                                                                                    |
+|        |Filigree 2: Soulweaver/Splendid Cacophony +2 Constitution(Rare)                         |                                                                                    |
+|        |Filigree 3: Nystul's Mystical Defense/Electrocution +6 MRR(Rare)                        |                                                                                    |
+|        |Filigree 4: Nystul's Mystical Defense: +1 Constitution(Rare)                            |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Trinket |Legendary Periapt of Wisdom                                                             |Drops in: Times Long Past, end chest                                                |
+|        |Wisdom +15                                                                              |                                                                                    |
+|        |Quality Dodge +3%                                                                       |                                                                                    |
+|        |Quality Magical Sheltering +9                                                           |                                                                                    |
+|        |Resistance Fortitude Save +13                                                           |                                                                                    |
+|        |Green: Legendary Demonheart Emerald                                                     |                                                                                    |
+|        |Colorless: Diamond of Insightful Wisdom +5                                              |                                                                                    |
+|        |Sun: Solar Gem of Constitution (Legendary)                                              |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Weapon1 |Attuned Bone Bastard Sword                                                              |Drops in: Skeletons in the Closet, end chest                                        |
+|        |IoD: Weapon: Scale Slot: Flamescale                                                     |                                                                                    |
+|        |IoD: Weapon: Fang Slot: Brightfang                                                      |                                                                                    |
+|        |IoD: Weapon: Claw Slot: Meltclaw: Constitution                                          |                                                                                    |
+|        |IoD: Weapon: Horn Slot: Brighthorn                                                      |                                                                                    |
+|        |Orange: Ruby of the Vampire Slayer                                                      |                                                                                    |
+|        |Purple: Ruby of Maiming                                                                 |                                                                                    |
+|        |Sentient Weapon Personality: Sentient Jewel of the Hopeful                              |                                                                                    |
+|        |Filigree 5: Sanctified Fervor/Reverberation +2 Charisma(Rare)                           |                                                                                    |
+|        |Filigree 6: To Hell and Back/Embraced by Light +2 Charisma(Rare)                        |                                                                                    |
+|        |Filigree 7: Soulweaver: +1 Constitution(Rare)                                           |                                                                                    |
+|        |Filigree 8: Grandfather's Shield: +1 Constitution(Rare)                                 |                                                                                    |
+|        |Filigree 9: Splendid Cacophony: +1 Constitution(Rare)                                   |                                                                                    |
+|        |Filigree 10: To Hell and Back: +1 Constitution(Rare)                                    |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Weapon2 |Legendary Large Shield of the Fallen Age                                                |Drops in: Ettercap Incursion, end chest                                             |
+|        |Shield Bashing +23%                                                                     |                                                                                    |
+|        |Insightful Incite +59%                                                                  |                                                                                    |
+|        |Profane Lifeforce +49                                                                   |                                                                                    |
+|        |Legendary Conditioning +15%                                                             |                                                                                    |
+|        |Purple: Crystallized Unicorn Tear                                                       |                                                                                    |
+|        |Orange: Diamond of Balance +19                                                          |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
 Equipped Gear Set: Tanky Knowledge set
 
 Equipped Gear Set: Standard
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Armor   |Dinosaur Scale Plate                                                 |Drops in: Skeletons in the Closet, The Mountain Keeper chest, end chest             |
-|        |IoD: Armor: Scale Slot: Goldscale                                    |                                                                                    |
-|        |IoD: Armor: Fang Slot: Voidfang                                      |                                                                                    |
-|        |IoD: Accessory: Claw Slot: Claw: Stunning                            |                                                                                    |
-|        |IoD: Accessory: Horn Slot: Horn: +12 Resistance                      |                                                                                    |
-|        |IoD: Set Bonus Slot: The Legendary Dread Isle's Curse                |                                                                                    |
-|        |Green: Sapphire of Armored Agility +2                                |                                                                                    |
-|        |Blue: Sapphire of Defense +36                                        |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Belt    |Legendary Bladesworn Bandolier                                       |Drops in: The Bark and the Blade, End chest                                         |
-|        |Green: Legendary Sapphire of Riposte                                 |                                                                                    |
-|        |Colorless: Diamond of Insightful Wisdom +5                           |                                                                                    |
-|        |Deck Curse: Curse of Major Sheltering                                |                                                                                    |
-|        |Legendary Forbidden Knowledge                                        |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Boots   |Legendary Beachcombers                                               |Drops in: Whispers of Return, end chest                                             |
-|        |IoD: Accessory: Scale Slot: Scale: +14 Wisdom                        |                                                                                    |
-|        |Green: Emerald of Vile Empowerment                                   |                                                                                    |
-|        |Colorless: +2 Festive Constitution                                   |                                                                                    |
-|        |The Legendary Dread Isle's Curse                                     |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Bracers |Legendary Cold Iron Bracers                                          |Drops in: Immortality Lessons, End chest, 'Granny' Optional Chest                   |
-|        |Green: Draconic Soul Gem                                             |                                                                                    |
-|        |Eminence of Winter                                                   |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Cloak   |Legendary Gravekeeper's Heavy Cloak                                  |Drops in: Locked Away (Part One), end chest                                         |
-|        |Melancholic Slot (Accessory): Melancholic Strength (Legendary)       |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Seeker (Legendary)               |                                                                                    |
-|        |Green: Sapphire of Natural Armor +14                                 |                                                                                    |
-|        |Colorless: +2 Festive Dexterity                                      |                                                                                    |
-|        |Sun: Solar Gem of Charisma (Legendary)                               |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Gloves  |Legendary Gloves of the Nimble                                       |Drops in: Death Hosts This Banquet, end chest                                       |
-|        |Green: Sapphire of Healing Amplification +57                         |                                                                                    |
-|        |Colorless: Diamond of Tumble +15                                     |                                                                                    |
-|        |Moon: Lunar Gem of Magical Protection (Legendary)                    |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Goggles |Legendary Doctor Gustav's Warped Lenses                              |Drops in: Body and Mind, end chest                                                  |
-|        |Green: Golem's Heart                                                 |                                                                                    |
-|        |Colorless: Diamond of Dexterity +14                                  |                                                                                    |
-|        |Sun: Solar Gem of Armor Layers (Legendary)                           |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Helmet  |Legendary Lamordian Cowl                                             |Drops in: The Wish, end chest                                                       |
-|        |Melancholic Slot (Accessory): Melancholic Doublestrike (Legendary)   |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Quality Charisma (Legendary)     |                                                                                    |
-|        |Green: Sapphire of Protection +11                                    |                                                                                    |
-|        |Colorless: +2 Festive Charisma                                       |                                                                                    |
-|        |Sun: Solar Gem of Magical Resistance Rating (Legendary)              |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Necklace|Legendary Black Dynamo                                               |Drops in: Zoo Creeper, end chest                                                    |
-|        |Melancholic Slot (Accessory): Melancholic Constitution (Legendary)   |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Quality Constitution (Legendary) |                                                                                    |
-|        |Green: Sapphire of Good Luck + 3                                     |                                                                                    |
-|        |Colorless: Diamond of Intimidate +20                                 |                                                                                    |
-|        |Moon: Lunar Gem of Constitution (Legendary)                          |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Ring1   |Legendary Nocturne Ring                                              |Drops in: A Frosty Reception, End chest, Frost Giant chest                          |
-|        |Green: Essence of the Champion of the Twins                          |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Ring2   |Dinosaur Bone Ring                                                   |Drops in: The Isle of Dread, any legendary chest; or Dread saga legendary end reward|
-|        |IoD: Accessory: Artifact Scale Slot: Scale: +58 False Life           |                                                                                    |
-|        |IoD: Accessory: Artifact Fang Slot: Fang: Accuracy +23               |                                                                                    |
-|        |IoD: Accessory: Artifact Claw Slot: Claw: Stunning                   |                                                                                    |
-|        |IoD: Accessory: Artifact Horn Slot: Horn: +23 Armor Piercing         |                                                                                    |
-|        |Blue: Ravil's Book of Legendary Recipes                              |                                                                                    |
-|        |Green: Topaz of Deadly +11                                           |                                                                                    |
-|        |Yellow: Topaz of Melee Power +12                                     |                                                                                    |
-|        |Filigree 1: Snake Bite/Grandfather's Shield +2 Constitution(Rare)    |                                                                                    |
-|        |Filigree 2: Soulweaver/Splendid Cacophony +2 Constitution(Rare)      |                                                                                    |
-|        |Filigree 3: Nystul's Mystical Defense/Electrocution +6 MRR(Rare)     |                                                                                    |
-|        |Filigree 4: Nystul's Mystical Defense: +1 Constitution(Rare)         |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Trinket |Legendary Heartshard                                                 |Drops in: Snowfall and Sunlight, end chest (rare)                                   |
-|        |Melancholic Slot (Accessory): Melancholic Charisma (Legendary)       |                                                                                    |
-|        |Dolorous Slot (Accessory): Dolorous Healing Amplification (Legendary)|                                                                                    |
-|        |Miserable Slot (Accessory): Miserable Stunning (Legendary)           |                                                                                    |
-|        |Green: Topaz of Quick Movements                                      |                                                                                    |
-|        |Colorless: Globe of True Imperial Blood                              |                                                                                    |
-|        |Sun: Solar Gem of Constitution (Legendary)                           |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Weapon1 |Attuned Bone Bastard Sword                                           |Drops in: Skeletons in the Closet, end chest                                        |
-|        |IoD: Weapon: Scale Slot: Flamescale                                  |                                                                                    |
-|        |IoD: Weapon: Fang Slot: Brightfang                                   |                                                                                    |
-|        |IoD: Weapon: Claw Slot: Meltclaw: Constitution                       |                                                                                    |
-|        |IoD: Weapon: Horn Slot: Brighthorn                                   |                                                                                    |
-|        |Sentient Weapon Personality: Sentient Jewel of the Hopeful           |                                                                                    |
-|        |Filigree 5: Sanctified Fervor/Reverberation +2 Charisma(Rare)        |                                                                                    |
-|        |Filigree 6: To Hell and Back/Embraced by Light +2 Charisma(Rare)     |                                                                                    |
-|        |Filigree 7: Snake Bite: +1 Constitution(Rare)                        |                                                                                    |
-|        |Filigree 8: Grandfather's Shield: +1 Constitution(Rare)              |                                                                                    |
-|        |Filigree 9: Soulweaver: +1 Constitution(Rare)                        |                                                                                    |
-|        |Filigree 10: Splendid Cacophony: +1 Constitution(Rare)               |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
-|Weapon2 |Dinosaur Bone Large Shield                                           |Drops in: Skeletons in the Closet, The Mountain Keeper chest, end chest             |
-|        |IoD: Weapon: Scale Slot: Shadowscale                                 |                                                                                    |
-|        |IoD: Weapon: Fang Slot: Shadowfang                                   |                                                                                    |
-|        |IoD: Armor: Scale Slot: Fragment of Extra-planar Alignment           |                                                                                    |
-|        |IoD: Armor: Fang Slot: Silverfang                                    |                                                                                    |
-+--------+---------------------------------------------------------------------+------------------------------------------------------------------------------------+
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Armor   |Dinosaur Plate Armor                                                                    |Drops in: Skeletons in the Closet, The Mountain Keeper chest, end chest             |
+|        |IoD: Armor: Scale Slot: Goldscale                                                       |                                                                                    |
+|        |IoD: Armor: Fang Slot: Voidfang                                                         |                                                                                    |
+|        |IoD: Accessory: Claw Slot: Claw: Stunning                                               |                                                                                    |
+|        |IoD: Accessory: Horn Slot: Horn: +12 Resistance                                         |                                                                                    |
+|        |IoD: Set Bonus Slot: The Legendary Dread Isle's Curse                                   |                                                                                    |
+|        |Green: Sapphire of Armored Agility +2                                                   |                                                                                    |
+|        |Blue: Sapphire of Defense +36                                                           |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Belt    |Legendary Bladesworn Bandolier                                                          |Drops in: The Bark and the Blade, End chest                                         |
+|        |Green: Essence of the Champion of the Twins                                             |                                                                                    |
+|        |Colorless: Diamond of Dexterity +12                                                     |                                                                                    |
+|        |Deck Curse: Curse of Major Sheltering                                                   |                                                                                    |
+|        |Legendary Forbidden Knowledge                                                           |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Boots   |Legendary Beachcombers                                                                  |Drops in: Whispers of Return, end chest                                             |
+|        |IoD: Accessory: Scale Slot: Scale: +14 Wisdom                                           |                                                                                    |
+|        |Green: Emerald of Vile Empowerment                                                      |                                                                                    |
+|        |Colorless: Diamond of Strength +12                                                      |                                                                                    |
+|        |The Legendary Dread Isle's Curse                                                        |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Bracers |Legendary Cold Iron Bracers                                                             |Drops in: Immortality Lessons, End chest, 'Granny' Optional Chest                   |
+|        |Green: Draconic Soul Gem                                                                |                                                                                    |
+|        |Eminence of Winter                                                                      |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Cloak   |Legendary Lamordian Heavy Cloak                                                         |Drops in: Cold Snap, end chest                                                      |
+|        |Melancholic Slot (Accessory): Melancholic Charisma (Legendary)                          |                                                                                    |
+|        |Dolorous Slot (Accessory): Dolorous Seeker (Legendary)                                  |                                                                                    |
+|        |Green: Sapphire of Natural Armor +14                                                    |                                                                                    |
+|        |Colorless: Globe of True Imperial Blood                                                 |                                                                                    |
+|        |Sun: Solar Gem of Dodge Cap (Legendary)                                                 |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Gloves  |Legendary Birchlore Gauntlets                                                           |Drops in: Spiders and Flies, end chest                                              |
+|        |IoD: Accessory: Scale Slot: Scale: Positive Spell Critical Damage                       |                                                                                    |
+|        |Green: Silvertongue Sapphire                                                            |                                                                                    |
+|        |Colorless: Diamond of Intimidate +19                                                    |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Goggles |Legendary Green Steel Goggles                                                           |Drops in: Altar of Fecundity, Manufactured Ingredient Recipes                       |
+|        |Equipment Tier 1: +128 Unconsciousness Range, 16 healing every 10 seconds (Enhancement) |                                                                                    |
+|        |Equipment Tier 2: +11 Strength Skills, +28 Hit Points                                   |                                                                                    |
+|        |Equipment Tier 3: +6 Constitution Skills, +14 Hit Points                                |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Helmet  |Legendary Lamordian Cowl                                                                |Drops in: The Wish, end chest                                                       |
+|        |Melancholic Slot (Accessory): Melancholic Doublestrike (Legendary)                      |                                                                                    |
+|        |Dolorous Slot (Accessory): Dolorous Quality Charisma (Legendary)                        |                                                                                    |
+|        |Green: Topaz of Wizardry +294                                                           |                                                                                    |
+|        |Colorless: +2 Festive Charisma                                                          |                                                                                    |
+|        |Sun: Solar Gem of Magical Resistance Rating (Legendary)                                 |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Necklace|Legendary Black Dynamo                                                                  |Drops in: Zoo Creeper, end chest                                                    |
+|        |Melancholic Slot (Accessory): Melancholic Constitution (Legendary)                      |                                                                                    |
+|        |Dolorous Slot (Accessory): Dolorous Quality Constitution (Legendary)                    |                                                                                    |
+|        |Green: Sapphire of Good Luck + 3                                                        |                                                                                    |
+|        |Colorless: +2 Festive Constitution                                                      |                                                                                    |
+|        |Moon: Lunar Gem of Constitution (Legendary)                                             |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Ring1   |Legendary Nocturne Ring                                                                 |Drops in: A Frosty Reception, End chest, Frost Giant chest                          |
+|        |Green: Sapphire of Accuracy +20                                                         |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Ring2   |Dinosaur Bone Ring                                                                      |Drops in: The Isle of Dread, any legendary chest; or Dread saga legendary end reward|
+|        |IoD: Accessory: Artifact Scale Slot: Scale: +58 False Life                              |                                                                                    |
+|        |IoD: Accessory: Artifact Fang Slot: Fang: Healing Amplification +61                     |                                                                                    |
+|        |IoD: Accessory: Artifact Claw Slot: Claw: Stunning                                      |                                                                                    |
+|        |IoD: Accessory: Artifact Horn Slot: Horn: +23 Armor Piercing                            |                                                                                    |
+|        |Blue: Diamond of Insightful Dexterity +5                                                |                                                                                    |
+|        |Green: Essence of the Dethek Runestone                                                  |                                                                                    |
+|        |Yellow: Topaz of Melee Power +12                                                        |                                                                                    |
+|        |Filigree 1: Snake Bite/Grandfather's Shield +2 Constitution(Rare)                       |                                                                                    |
+|        |Filigree 2: Soulweaver/Splendid Cacophony +2 Constitution(Rare)                         |                                                                                    |
+|        |Filigree 3: Nystul's Mystical Defense/Electrocution +6 MRR(Rare)                        |                                                                                    |
+|        |Filigree 4: Nystul's Mystical Defense: +1 Constitution(Rare)                            |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Trinket |Legendary Periapt of Wisdom                                                             |Drops in: Times Long Past, end chest                                                |
+|        |Green: Legendary Demonheart Emerald                                                     |                                                                                    |
+|        |Colorless: Diamond of Insightful Wisdom +5                                              |                                                                                    |
+|        |Sun: Solar Gem of Constitution (Legendary)                                              |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Weapon1 |Attuned Bone Bastard Sword                                                              |Drops in: Skeletons in the Closet, end chest                                        |
+|        |IoD: Weapon: Scale Slot: Flamescale                                                     |                                                                                    |
+|        |IoD: Weapon: Fang Slot: Brightfang                                                      |                                                                                    |
+|        |IoD: Weapon: Claw Slot: Meltclaw: Constitution                                          |                                                                                    |
+|        |IoD: Weapon: Horn Slot: Brighthorn                                                      |                                                                                    |
+|        |Orange: Ruby of the Vampire Slayer                                                      |                                                                                    |
+|        |Purple: Ruby of Maiming                                                                 |                                                                                    |
+|        |Sentient Weapon Personality: Sentient Jewel of the Hopeful                              |                                                                                    |
+|        |Filigree 5: Sanctified Fervor/Reverberation +2 Charisma(Rare)                           |                                                                                    |
+|        |Filigree 6: To Hell and Back/Embraced by Light +2 Charisma(Rare)                        |                                                                                    |
+|        |Filigree 7: Soulweaver: +1 Constitution(Rare)                                           |                                                                                    |
+|        |Filigree 8: Grandfather's Shield: +1 Constitution(Rare)                                 |                                                                                    |
+|        |Filigree 9: Splendid Cacophony: +1 Constitution(Rare)                                   |                                                                                    |
+|        |Filigree 10: To Hell and Back: +1 Constitution(Rare)                                    |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+|Weapon2 |Legendary Large Shield of the Fallen Age                                                |Drops in: Ettercap Incursion, end chest                                             |
+|        |Purple: Crystallized Unicorn Tear                                                       |                                                                                    |
+|        |Orange: Diamond of Balance +19                                                          |                                                                                    |
++--------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
