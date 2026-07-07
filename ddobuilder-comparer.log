@@ -12,9 +12,9 @@ DEBUG:ddo_stats:Now we know the crit ranges of crits and big crits, we calculate
 DEBUG:ddo_stats:Calculated the expected damage by averaging all die rolls from 1 - 20: 54.8.
 DEBUG:ddo_file_parser:Extracted HP: 6394.0.
 DEBUG:ddo_file_parser:Extracted PRR: 403.0.
-DEBUG:__main__:The physical damage percentage that's reduced by PRR: 0.8011928429423459.
+DEBUG:ddo_stats:The physical damage percentage that's reduced by PRR: 0.8011928429423459.
 DEBUG:ddo_file_parser:Extracted MRR: 209.0.
-DEBUG:__main__:The elemental damage percentage that's reduced by MRR: 0.6763754045307444.
+DEBUG:ddo_stats:The elemental damage percentage that's reduced by MRR: 0.6763754045307444.
 DEBUG:ddo_file_parser:Extracted Dodge: 24.0.
 DEBUG:ddo_file_parser:Extracted AC: 232.0.
 INFO:__main__:An offensive fitness score for main hand items only: 337.
