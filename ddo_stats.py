@@ -31,7 +31,8 @@ def get_expected_damage(ddo_file: list) -> float:
         for row in ddo_file:
             if isinstance(row, str) and row.startswith(on_hit_label):
                 strip_label = row[len(on_hit_label):]
-                if "[" in row and "]" in row and "+" in row and average_damage_on_hit_calculated == False:
+                if "[" in row and "]" in row and "+" in row and average_damage_on_hit_calculated is False:
+
                     opening_bracket_id = strip_label.find("[")
                     closing_bracket_id = strip_label.find("]")
 
@@ -52,7 +53,7 @@ def get_expected_damage(ddo_file: list) -> float:
 
                     # Guard that only the Main Hand weapon gets calculated
                     average_damage_on_hit_calculated = True
-    except:
+    except (ValueError, IndexError):
         logger.exception("Exception when extracting the average damage from non-critical hits")
 
     try:
@@ -82,7 +83,7 @@ def get_expected_damage(ddo_file: list) -> float:
                     average_damage_on_crit19_20 = _calculate_crit_damage(dice_multiplier, dice_average, plus_damage_on_crit, crit_multiplier_on_19_20)
                     logger.debug(f'Calculated the average damage of big crits on 19 or 20: {average_damage_on_crit19_20}.')
                     crit_damage_on_19_20_calculated = True
-    except:
+    except (ValueError, IndexError):
         logger.exception("Exception when calculating the average damage from normal crits and crits on 19 or 20")
 
     hit_range = 20.0 - crit_range - crit_range_on_19_20
@@ -104,16 +105,16 @@ def reduction_rating_to_percentage(rr: float) -> float:
 
 def normalize_dodge(dodge: float) -> float:
     """To compare stats that work differently and have a different range, we normalize them so they're a number between 0 and 1. https://en.wikipedia.org/wiki/Feature_scaling"""
-    min = 6
-    max = 50
+    min_value = 6
+    max_value = 50
 
-    return (dodge - min) / (max - min)
+    return (dodge - min_value) / (max_value - min_value)
 
 def normalize_armor_class(armor_class: float) -> float:
-    min = 30.0
-    max = 400.0
+    min_value = 30.0
+    max_value = 400.0
 
-    return (armor_class - min) / (max - min)
+    return (armor_class - min_value) / (max_value - min_value)
 
 def _is_a_dice_string(dice_string: str) -> bool:
     """A dice string has the format 2d8+2, wich means: 'roll two eight-sided dice and add 2'"""
