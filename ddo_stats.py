@@ -153,3 +153,32 @@ def _calculate_crit_range_from_string(crit_range_string: str) -> float:
 
 def _calculate_crit_damage(dice_multiplier: float, dice_average: float, plus_damage_on_crit: float, crit_multiplier: float) -> float:
     return ((dice_multiplier * dice_average) + plus_damage_on_crit) * crit_multiplier
+
+def compute_offensive_score(ddo_file: list) -> float:
+    """Calculate an offensive fitness score for the main hand weapon.
+    Factors in expected damage per roll, melee power, doublestrike, and helpless damage bonus."""
+    melee_power = get_stat(ddo_file, labels["melee_power"])
+    doublestrike = get_stat(ddo_file, labels["doublestrike"])
+    helpless_damage_bonus = get_stat(ddo_file, labels["helpless_damage_bonus"])
+    expected_damage = get_expected_damage(ddo_file)
+    # TODO: add sneak attack dice and bonus damage
+    return (expected_damage *
+            convert_to_factor(melee_power) *
+            convert_to_factor(doublestrike) *
+            convert_to_factor(helpless_damage_bonus))
+
+def compute_defensive_score(ddo_file: list) -> float:
+    """Calculate a defensive fitness score approximating 'Effective Hit Points'.
+    Factors in HP, physical and magical damage reduction, dodge, and armor class."""
+    hit_points = get_stat(ddo_file, labels["hit_points"])
+    prr_percentage = reduction_rating_to_percentage(get_stat(ddo_file, labels["prr"]))
+    logger.debug(f"The physical damage percentage that's reduced by PRR: {prr_percentage}.")
+    mrr_percentage = reduction_rating_to_percentage(get_stat(ddo_file, labels["mrr"]))
+    logger.debug(f"The elemental damage percentage that's reduced by MRR: {mrr_percentage}.")
+    dodge = get_stat(ddo_file, labels["dodge"])
+    armor_class = get_stat(ddo_file, labels["armor_class"])
+    return (hit_points *
+            (1.0 + prr_percentage) *
+            (1.0 + mrr_percentage) *
+            (1.0 + normalize_dodge(dodge)) *
+            (1.0 + normalize_armor_class(armor_class)))
