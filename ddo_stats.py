@@ -1,18 +1,6 @@
 import logging
-from ddo_file_parser import get_stat
+from ddo_file_parser import get_stat, labels
 logger = logging.getLogger(__name__)
-
-labels = {
-    "melee_power": "Melee Power:",
-    "doublestrike": "Doublestrike:",
-    "mainhand_damage_ability_multiplier": "Mainhand damage ability multiplier:",
-    "helpless_damage_bonus": "Helpless Damage bonus:",
-    "hit_points": "HP:",
-    "prr": "PRR:",
-    "mrr": "MRR:",
-    "dodge": "Dodge:",
-    "armor_class": "AC:"
-}
 
 def get_expected_damage(ddo_file: list) -> float:
     """In DDO, the player rolls a D20 to damage. Calculate the expected damage from one hit by adding all damage
@@ -42,8 +30,9 @@ def get_expected_damage(ddo_file: list) -> float:
     try:
         for row in ddo_file:
             if isinstance(row, str) and row.startswith(on_hit_label):
-                strip_label = row.strip(on_hit_label)
+                strip_label = row[len(on_hit_label):]
                 if "[" in row and "]" in row and "+" in row and average_damage_on_hit_calculated is False:
+
                     opening_bracket_id = strip_label.find("[")
                     closing_bracket_id = strip_label.find("]")
 
