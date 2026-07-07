@@ -1,6 +1,18 @@
 import logging
 logger = logging.getLogger(__name__)
 
+labels = {
+    "melee_power": "Melee Power:",
+    "doublestrike": "Doublestrike:",
+    "mainhand_damage_ability_multiplier": "Mainhand damage ability multiplier:",
+    "helpless_damage_bonus": "Helpless Damage bonus:",
+    "hit_points": "HP:",
+    "prr": "PRR:",
+    "mrr": "MRR:",
+    "dodge": "Dodge:",
+    "armor_class": "AC:"
+}
+
 
 def get_stat(ddo_file: list, label_string: str) -> float:
     """The DDO builder by Maetrim exports a text file. Convert it to a list of strings, where every row in the text file is a new element in the list. Pass the
