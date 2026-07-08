@@ -2,6 +2,25 @@ import logging
 from ddo_file_parser import get_stat, labels
 logger = logging.getLogger(__name__)
 
+def get_average_sneak_attack_damage(ddo_file: list) -> float:
+    """Extract the average sneak attack damage from a ddo build file. The average is calculated by taking the average of the dice rolled and adding any bonus damage.
+    Example block from a build file:
+        Sneak Attack Damage: 2d6+3"""
+
+    average_sneak_attack_damage = float(0)
+    for row in ddo_file:
+        if isinstance(row, str) and row.startswith(labels["sneak_attack_damage"]):
+            logger.debug(f'Found the sneak attack damage row: {row}.')
+            stripped_to_end_of_label = row[len(labels["sneak_attack_damage"]):]
+            stripped_up_to_stat = stripped_to_end_of_label.strip()
+
+            if _is_a_dice_string(stripped_up_to_stat):
+                average_sneak_attack_damage = _calculate_average_damage_from_dice_string(stripped_up_to_stat)
+                logger.debug(f'Calculated the average sneak attack damage: {average_sneak_attack_damage}.')
+                return average_sneak_attack_damage
+
+    return average_sneak_attack_damage
+
 def get_expected_damage(ddo_file: list) -> float:
     """In DDO, the player rolls a D20 to damage. Calculate the expected damage from one hit by adding all damage
     from 1 to 20 and then dividing this total by 20.
@@ -10,7 +29,10 @@ def get_expected_damage(ddo_file: list) -> float:
         Main Hand: Ignition, the Fear and Flame
         On Hit         5.65[1d10+3]+128
         Critical 17-18 (5.65[1d10+3]+139) * 2
-        Critical 19-20 (5.65[1d10+3]+139) * 2"""
+        Critical 19-20 (5.65[1d10+3]+139) * 2
+    
+    We add the sneak attack damage to the expected damage too. TODO: weigh the sneak attack damage by the chance
+    of a sneak attack happening, which depends on some circumstances."""
 
     average_damage_on_hit_calculated = False
     on_hit_label = "On Hit         "
@@ -26,6 +48,8 @@ def get_expected_damage(ddo_file: list) -> float:
     crit_damage_on_19_20_calculated = False
     crit_range_on_19_20 = 2.0 # 19 or 20!
     average_damage_on_crit19_20 = 0.0
+    
+    average_sneak_attack_damage = get_average_sneak_attack_damage(ddo_file)
 
     try:
         for row in ddo_file:
@@ -93,8 +117,8 @@ def get_expected_damage(ddo_file: list) -> float:
                         (average_damage_on_crit * crit_range) +
                         (average_damage_on_crit19_20 * crit_range_on_19_20)
                         ) / 20
-    logger.debug(f'Calculated the expected damage by averaging all die rolls from 1 - 20: {expected_damage}.')
-    return expected_damage
+    logger.debug(f'Calculated the expected damage by averaging all die rolls from 1 - 20: {expected_damage}. Added sneak dice.')
+    return expected_damage + average_sneak_attack_damage
 
 def convert_to_factor(number: float) -> float:
     return (number + 100) / 100
@@ -150,7 +174,7 @@ def compute_offensive_score(ddo_file: list) -> float:
     doublestrike = get_stat(ddo_file, labels["doublestrike"])
     helpless_damage_bonus = get_stat(ddo_file, labels["helpless_damage_bonus"])
     expected_damage = get_expected_damage(ddo_file)
-    # TODO: add sneak attack dice and bonus damage
+
     return (expected_damage *
             convert_to_factor(melee_power) *
             convert_to_factor(doublestrike) *

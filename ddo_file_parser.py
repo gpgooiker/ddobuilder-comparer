@@ -10,7 +10,8 @@ labels = {
     "prr": "PRR:",
     "mrr": "MRR:",
     "dodge": "Dodge:",
-    "armor_class": "AC:"
+    "armor_class": "AC:",
+    "sneak_attack_damage": "Sneak Attack Damage: "
 }
 
 
