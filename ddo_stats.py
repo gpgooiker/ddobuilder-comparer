@@ -115,12 +115,9 @@ def _parse_normal_crit(ddo_file: list, dice_multiplier: float, dice_average: flo
             if not (isinstance(row, str) and row.startswith("Critical ") and "19-20" not in row):
                 continue
             plus_damage_on_crit = float(row[:row.find(")")][row.rfind("+") + 1:])
-            logger.debug(f'Extracted the bonus damage on crits: {plus_damage_on_crit}.')
             crit_multiplier = float(row[row.rfind("* ") + 1:])
-            logger.debug(f'Extracted the crit multiplier: {crit_multiplier}.')
             crit_range_string = row[row.find(" ") + 1:row.find("(")]
             crit_range = _calculate_crit_range_from_string(crit_range_string)
-            logger.debug(f'Calculated the crit range: {crit_range}.')
             average_damage_on_crit = _calculate_crit_damage(dice_multiplier, dice_average, plus_damage_on_crit, crit_multiplier)
             logger.debug(f'Calculated average crit damage: {average_damage_on_crit}.')
             return crit_range, average_damage_on_crit
@@ -140,7 +137,6 @@ def _parse_big_crit(ddo_file: list, dice_multiplier: float, dice_average: float)
                 continue
             plus_damage_on_crit = float(row[:row.find(")")][row.rfind("+") + 1:])
             crit_multiplier = float(row[row.rfind("* ") + 1:])
-            logger.debug(f'Extracted the crit multiplier for 19-20 crits: {crit_multiplier}.')
             average_damage = _calculate_crit_damage(dice_multiplier, dice_average, plus_damage_on_crit, crit_multiplier)
             logger.debug(f'Calculated average damage for 19-20 crits: {average_damage}.')
             return average_damage
