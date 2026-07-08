@@ -779,7 +779,7 @@ Ranged Power: 126.0
 Doubleshot Chance: 4%
 
 Sneak Attack Attack bonus: 0
-Sneak Attack Damage: 0d6+0
+Sneak Attack Damage: 1d6+1
 
 Main Hand: Attuned Bone Bastard Sword
 On Hit         5.45[1d10+3]+113
