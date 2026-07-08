@@ -37,6 +37,7 @@ def get_expected_damage(ddo_file: list) -> float:
     dice_multiplier, dice_average, average_damage_on_hit = _parse_normal_hit(ddo_file)
     crit_range, average_damage_on_crit = _parse_normal_crit(ddo_file, dice_multiplier, dice_average)
     average_damage_on_crit19_20 = _parse_big_crit(ddo_file, dice_multiplier, dice_average)
+    average_sneak_attack_damage = get_average_sneak_attack_damage(ddo_file)
 
     crit_range_on_19_20 = 2.0  # 19 or 20
     hit_range = 20.0 - crit_range - crit_range_on_19_20
@@ -47,7 +48,7 @@ def get_expected_damage(ddo_file: list) -> float:
                        (average_damage_on_crit19_20 * crit_range_on_19_20)
                        ) / 20
     logger.debug(f'Calculated the expected damage by averaging all die rolls from 1 - 20: {expected_damage}. Added sneak dice.')
-    return expected_damage + sneak_attack_damage
+    return expected_damage + average_sneak_attack_damage
 
 def convert_to_factor(number: float) -> float:
     return (number + 100) / 100

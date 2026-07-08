@@ -2,15 +2,15 @@ INFO:root:Start ----------------------------------------------------------------
 DEBUG:ddo_file_parser:Extracted Melee Power: 174.0.
 DEBUG:ddo_file_parser:Extracted Doublestrike: 45.0.
 DEBUG:ddo_file_parser:Extracted Helpless Damage bonus: 55.0.
+DEBUG:ddo_stats:Extracted the bonus damage on crits: 137.0.
+DEBUG:ddo_stats:Extracted the crit multiplier: 2.0.
+DEBUG:ddo_stats:Calculated the crit range: 2.0.
+DEBUG:ddo_stats:Calculated average crit damage: 274.0.
+DEBUG:ddo_stats:Extracted the crit multiplier for 19-20 crits: 2.0.
+DEBUG:ddo_stats:Calculated average damage for 19-20 crits: 274.0.
 DEBUG:ddo_stats:Found the sneak attack damage row: Sneak Attack Damage: 1d6+1.
 DEBUG:ddo_stats:Calculated the average sneak attack damage: 4.5.
-DEBUG:ddo_stats:Extracted the bonus damage on all crits, those on 19 or 20 as well: 137.0.
-DEBUG:ddo_stats:Extracted the crit modifier of ordinary crits on the first weapon in the file: 2.0.
-DEBUG:ddo_stats:Calculated the crit range of ordinary crits: 2.0.
-DEBUG:ddo_stats:Calculated the average damage of a normal, non 19/20 crit: 274.0.
-DEBUG:ddo_stats:Extracted the crit multiplier of big crits on 19 or 20: 2.0.
-DEBUG:ddo_stats:Calculated the average damage of big crits on 19 or 20: 274.0.
-DEBUG:ddo_stats:Now we know the crit ranges of crits and big crits, we calculated the normal hit range: 16.0
+DEBUG:ddo_stats:Normal hit range: 16.0, crit range: 2.0, 19-20 crit range: 2.0
 DEBUG:ddo_stats:Calculated the expected damage by averaging all die rolls from 1 - 20: 54.8. Added sneak dice.
 DEBUG:ddo_file_parser:Extracted HP: 6394.0.
 DEBUG:ddo_file_parser:Extracted PRR: 403.0.
