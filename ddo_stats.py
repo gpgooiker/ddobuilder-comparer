@@ -74,9 +74,9 @@ def _parse_normal_hit(ddo_file: list) -> tuple[float, float, float]:
     """Parse the first 'On Hit' line (main hand weapon) and return
     (dice_multiplier, dice_average, average_damage_on_hit).
 
-    Parses lines like: On Hit         5.65[1d10+3]+128
+    Parses lines like: On Hit         5.65[1d10+3]+128
     """
-    on_hit_label = "On Hit         "
+    on_hit_label = "On Hit         "
     try:
         for row in ddo_file:
             if not (isinstance(row, str) and row.startswith(on_hit_label)):

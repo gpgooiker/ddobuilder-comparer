@@ -2,12 +2,15 @@ INFO:root:Start ----------------------------------------------------------------
 DEBUG:ddo_file_parser:Extracted Melee Power: 174.0.
 DEBUG:ddo_file_parser:Extracted Doublestrike: 45.0.
 DEBUG:ddo_file_parser:Extracted Helpless Damage bonus: 55.0.
-DEBUG:ddo_stats:Calculated average crit damage: 274.0.
-DEBUG:ddo_stats:Calculated average damage for 19-20 crits: 274.0.
+DEBUG:ddo_stats:Extracted the dice string: 1d10+3.
+DEBUG:ddo_stats:Calculated the average damage from the dice (8.5), without bonus damage.
+DEBUG:ddo_stats:Average damage on hit: 159.325.
+DEBUG:ddo_stats:Calculated average crit damage: 366.65.
+DEBUG:ddo_stats:Calculated average damage for 19-20 crits: 366.65.
 DEBUG:ddo_stats:Found the sneak attack damage row: Sneak Attack Damage: 1d6+1.
 DEBUG:ddo_stats:Calculated the average sneak attack damage: 4.5.
 DEBUG:ddo_stats:Normal hit range: 16.0, crit range: 2.0, 19-20 crit range: 2.0
-DEBUG:ddo_stats:Calculated the expected damage by averaging all die rolls from 1 - 20: 54.8. Added sneak dice.
+DEBUG:ddo_stats:Calculated the expected damage by averaging all die rolls from 1 - 20: 200.79000000000002. Added sneak dice.
 DEBUG:ddo_file_parser:Extracted HP: 6394.0.
 DEBUG:ddo_file_parser:Extracted PRR: 403.0.
 DEBUG:ddo_stats:The physical damage percentage that's reduced by PRR: 0.8011928429423459.
@@ -15,5 +18,5 @@ DEBUG:ddo_file_parser:Extracted MRR: 209.0.
 DEBUG:ddo_stats:The elemental damage percentage that's reduced by MRR: 0.6763754045307444.
 DEBUG:ddo_file_parser:Extracted Dodge: 24.0.
 DEBUG:ddo_file_parser:Extracted AC: 232.0.
-INFO:__main__:An offensive fitness score for main hand items only: 365.
+INFO:__main__:An offensive fitness score for main hand items only: 1264.
 INFO:__main__:A defensive fitness score (A bit like 'Effective Hit Points'): 42057.
